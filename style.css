@@ -7,7 +7,7 @@
 .main {
     display: flex;
     background-color: gray;
-    height: 700vh;
+    height: 697vh;
     width: 100vw;
     flex-direction: column;
 }
@@ -21,19 +21,63 @@ div {
     width: 100vw;
     height:100vh;
     background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    color: wheat;
 }
 
 .b2 {
     width: 100vw;
     height: 90vh;
     background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
 }
 
 .b3 {
     width: 100vw;
     height: 210vh;
     background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
 }
+
+.b4 {
+    width: 100vw;
+    height: 102vh;
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+}
+
+.b5 {
+    width: 100vw;
+    height: 104vh;
+    background-color: burlywood;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+}
+
+.b6 {
+    width: 100vw;
+    height: 91vh;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+}
+
 
 
 
