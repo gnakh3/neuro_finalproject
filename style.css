@@ -186,8 +186,8 @@
     align-items: end;
     justify-content: end;
     position: absolute;
-    top: 636px;
-    left: 1419px;
+    top: 65%;
+    left: 74.5%;
     z-index: 1;
 }
 
@@ -202,7 +202,7 @@
     height: 217px;
     display: flex;
     flex-direction: column;
-    gap: 6px;
+    gap: 3%;
 }
 
 .gvideotext {
@@ -228,9 +228,8 @@
     position: absolute;
     width: 64px;
     height: 64px;
-    top: 55px;
-    left: 10px;
-
+    top: 39%;
+    left: 6%;
 }
 
 .gend {
@@ -243,11 +242,12 @@
 .gdecor {
     width: 885px;
     height: 358px;
-    top: 328px;
-    left: -342px;
-    position: relative;
+    bottom: 0;
+    right: 0;
+    position: absolute;
     z-index: 0;
     opacity: 50%;
+    padding-top: 0;
 }
 
 
