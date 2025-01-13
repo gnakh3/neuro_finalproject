@@ -8,7 +8,7 @@
     display: flex;
     background-color: gray;
     height: 697vh;
-    width: 100vw;
+   max-width:100vw;
     flex-direction: column;
 }
 
