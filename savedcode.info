@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=|, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap"
+        rel="stylesheet">
+    <link href="https://api.fontshare.com/v2/css?f[]=supreme@800,400,300,500,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <form class="main">
+        <div class="gbox1">
+            <div class="gleftside">
+                <div class="gleft1">
+                    <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M15.2302 28.5714V14.1486L24.7616 28.5714H25.8588V12.3429H24.7616V26.72L15.2531 12.3429H14.1331V28.5714H15.2302Z"
+                            fill="#E5E548" />
+                        <circle cx="20" cy="20" r="19.5" stroke="#E5E548" />
+                    </svg>
+                </div>
+                <div class="gleft2">
+                    <svg width="30" height="53" viewBox="-10 -10 30 53" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="-10" y="-10" width="30" height="53" fill="transparent" />
+                        <path d="M1 32.0718L0.999999 0.0718075" stroke="white" />
+                        <path d="M9 32.0718L9 0.0718075" stroke="white" />
+                    </svg>
+                    
+                </div>
+                <div class="gleft3">
+                    <svg width="80" height="118" viewBox="0 0 80 118" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M35.9558 19.3436C38.8958 19.3436 40.6358 17.7236 40.6358 14.8636V9.42362C40.6358 6.56362 38.8958 4.94361 35.9558 4.94361C33.0358 4.94361 31.2958 6.56362 31.2958 9.44362V14.8636C31.2958 17.7436 33.0358 19.3436 35.9558 19.3436ZM35.9558 6.64362C37.8158 6.64362 38.6158 7.76362 38.6158 9.46362V14.8236C38.6158 16.5236 37.8158 17.6436 35.9558 17.6436C34.1158 17.6436 33.3158 16.5236 33.3158 14.8236V9.48362C33.3158 7.76362 34.1158 6.64362 35.9558 6.64362ZM46.5586 5.14361L43.3986 6.26361V7.98362L46.3786 6.98361V19.1436H48.3386V5.14361H46.5586Z"
+                            fill="white" />
+                        <path d="M44 32.1436L36 46" stroke="#666666" stroke-width="0.8" />
+                        <path
+                            d="M36.1731 70.12C37.9371 70.12 38.9811 69.148 38.9811 67.432V64.168C38.9811 62.452 37.9371 61.48 36.1731 61.48C34.4211 61.48 33.3771 62.452 33.3771 64.18V67.432C33.3771 69.16 34.4211 70.12 36.1731 70.12ZM36.1731 62.5C37.2891 62.5 37.7691 63.172 37.7691 64.192V67.408C37.7691 68.428 37.2891 69.1 36.1731 69.1C35.0691 69.1 34.5891 68.428 34.5891 67.408V64.204C34.5891 63.172 35.0691 62.5 36.1731 62.5ZM43.9508 70.12C45.8108 70.12 46.7948 69.184 46.7948 67.756V67.48C46.7948 66.568 46.3268 65.92 45.5468 65.608C46.2068 65.296 46.5548 64.708 46.5548 63.952V63.664C46.5548 62.248 45.5348 61.48 43.9748 61.48C42.3788 61.48 41.3588 62.248 41.3588 63.664V63.952C41.3588 64.708 41.7068 65.296 42.3788 65.608C41.5868 65.932 41.1188 66.568 41.1188 67.48V67.756C41.1188 69.184 42.1028 70.12 43.9508 70.12ZM43.9988 62.5C44.8988 62.5 45.3548 62.98 45.3548 63.712V63.904C45.3548 64.672 44.8988 65.128 43.9148 65.128C43.0148 65.128 42.5588 64.672 42.5588 63.904V63.712C42.5588 62.98 43.0148 62.5 43.9988 62.5ZM43.9868 66.148C45.0668 66.148 45.5948 66.688 45.5948 67.516V67.708C45.5948 68.56 45.0788 69.1 43.9268 69.1C42.8468 69.1 42.3188 68.56 42.3188 67.708V67.516C42.3188 66.688 42.8348 66.148 43.9868 66.148Z"
+                            fill="#666666" />
+                    </svg>
+
+                </div>
+            </div>
+
+            <div class="grightside">
+                <div class="grighttop">
+                    <div class="gtop1">NEURO.</div>
+                    <div class="gtopgroup">
+                        <div class="gtop2">4°12'S 332°48'E</div>
+                        <div class="gtop3"></div>
+                    </div>
+                </div>
+
+                <div class="gmid">
+                    <div class="gmid1">creative team</div>
+                    <div class="gmidline2">
+                        <div class="gmid2">for future’s</div>
+                        <div class="gmidline"></div>
+                    </div>
+                    <div class="gmid3">brands.</div>
+                    <div class="gmidgroup">
+                        <div class="gmid4">We are outstanding individuals
+                            who loves to combine art + design</div>
+                        <button class="gmid4btn">LET’S WORK</button>
+                    </div>
+                </div>
+                <div class="gend">
+                    <div class="gendarrow"><svg width="64" height="65" class="gendarrow" viewBox="0 0 64 65" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path d="M22 36.5L32 44.5L42 36.5" stroke="#E5E548" stroke-width="1.6" />
+                            <path d="M32 20.5V36.5" stroke="#E5E548" stroke-width="1.6" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+            <div class="gvideobox">
+                <div class="gvideogroup">
+                    <div class="gvideotext">4:35</div>
+                    <div class="gvideo"></div>
+                    <div class="gvideobtn"><svg width="66" height="66" class="gvideobtn" viewBox="0 0 66 66" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path d="M41 33L29 39.9282L29 26.0718L41 33Z" fill="white" />
+                            <circle cx="33" cy="33" r="32" stroke="white" />
+                        </svg>
+                    </div>
+                    <div class="gvideotext2">PLAY REELS</div>
+                </div>
+            </div>
+            <div class="gdecor"><svg width="571" height="161" class="gdecor" viewBox="0 0 571 161" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M1.16 160.072H0.16V161.072H1.16V160.072ZM97.48 160.072V161.072H98.48V160.072H97.48ZM97.48 136.552H98.48V135.552H97.48V136.552ZM28.264 136.552H27.264V137.552H28.264V136.552ZM28.264 3.27177H29.264V2.27177H28.264V3.27177ZM1.16 3.27177V2.27177H0.16V3.27177H1.16ZM1.16 161.072H97.48V159.072H1.16V161.072ZM98.48 160.072V136.552H96.48V160.072H98.48ZM97.48 135.552H28.264V137.552H97.48V135.552ZM29.264 136.552V3.27177H27.264V136.552H29.264ZM28.264 2.27177H1.16V4.27177H28.264V2.27177ZM0.16 3.27177V160.072H2.16V3.27177H0.16ZM124.598 160.072H123.598V161.072H124.598V160.072ZM151.702 160.072V161.072H152.702V160.072H151.702ZM151.702 3.27177H152.702V2.27177H151.702V3.27177ZM124.598 3.27177V2.27177H123.598V3.27177H124.598ZM124.598 161.072H151.702V159.072H124.598V161.072ZM152.702 160.072V3.27177H150.702V160.072H152.702ZM151.702 2.27177H124.598V4.27177H151.702V2.27177ZM123.598 3.27177V160.072H125.598V3.27177H123.598ZM195.973 3.27177V2.27177H194.973V3.27177H195.973ZM195.973 160.072H194.973V161.072H195.973V160.072ZM223.077 160.072V161.072H224.077V160.072H223.077ZM223.077 101.608V100.608H222.077V101.608H223.077ZM223.077 78.0878H222.077V79.0878H223.077V78.0878ZM223.077 26.7918V25.7918H222.077V26.7918H223.077ZM246.148 102.608C263.321 102.608 277.509 98.4287 287.425 90.5757C297.37 82.7004 302.924 71.2025 302.924 56.8078H300.924C300.924 70.637 295.615 81.5392 286.184 89.0078C276.724 96.4989 263.024 100.608 246.148 100.608V102.608ZM302.924 56.8078V48.5198H300.924V56.8078H302.924ZM302.924 48.5198C302.924 33.83 297.959 22.2077 288.19 14.2832C278.455 6.38574 264.085 2.27177 245.477 2.27177V4.27177C263.828 4.27177 277.682 8.33379 286.931 15.8364C296.146 23.3118 300.924 34.3135 300.924 48.5198H302.924ZM245.477 2.27177H195.973V4.27177H245.477V2.27177ZM194.973 3.27177V160.072H196.973V3.27177H194.973ZM195.973 161.072H223.077V159.072H195.973V161.072ZM224.077 160.072V101.608H222.077V160.072H224.077ZM223.077 102.608H246.148V100.608H223.077V102.608ZM243.909 27.7918C254.545 27.7918 261.841 30.0112 266.463 33.7567C271.048 37.4718 273.148 42.8097 273.148 49.4158H275.148C275.148 42.3578 272.881 36.3837 267.722 32.2028C262.6 28.0523 254.776 25.7918 243.909 25.7918V27.7918ZM273.148 49.4158V55.6878H275.148V49.4158H273.148ZM273.148 55.6878C273.148 62.2633 270.844 67.5507 266.141 71.2236C261.399 74.9264 254.092 77.0878 243.909 77.0878V79.0878C254.333 79.0878 262.146 76.8811 267.372 72.7999C272.637 68.6888 275.148 62.7762 275.148 55.6878H273.148ZM243.909 77.0878H223.077V79.0878H243.909V77.0878ZM224.077 78.0878V26.7918H222.077V78.0878H224.077ZM223.077 27.7918H243.909V25.7918H223.077V27.7918ZM333.191 160.072H332.191V161.072H333.191V160.072ZM420.103 77.1918L419.634 76.3089L417.681 77.3476L419.751 78.1275L420.103 77.1918ZM333.191 3.27177V2.27177H332.191V3.27177H333.191ZM360.295 68.4558H359.295V69.4558H360.295V68.4558ZM360.295 26.7918V25.7918H359.295V26.7918H360.295ZM360.295 136.552H359.295V137.552H360.295V136.552ZM360.295 90.4078V89.4078H359.295V90.4078H360.295ZM333.191 161.072H391.431V159.072H333.191V161.072ZM391.431 161.072C407.034 161.072 420.438 157.286 429.963 149.769C439.519 142.227 445.071 131.008 445.071 116.392H443.071C443.071 130.448 437.76 141.068 428.724 148.199C419.657 155.354 406.74 159.072 391.431 159.072V161.072ZM445.071 116.392V110.792H443.071V116.392H445.071ZM445.071 110.792C445.071 102.326 442.895 95.1684 438.693 89.3728C434.494 83.5817 428.325 79.2213 420.456 76.256L419.751 78.1275C427.337 80.9862 433.152 85.1378 437.074 90.5467C440.992 95.9511 443.071 102.682 443.071 110.792H445.071ZM420.573 78.0746C431.388 72.3221 437.903 63.0443 437.903 50.0878H435.903C435.903 62.2193 429.875 70.8615 419.634 76.3089L420.573 78.0746ZM437.903 50.0878V44.2638H435.903V50.0878H437.903ZM437.903 44.2638C437.903 30.6774 433.094 20.1172 423.938 12.983C414.821 5.87927 401.522 2.27177 384.711 2.27177V4.27177C401.276 4.27177 414.073 7.83226 422.709 14.5606C431.305 21.2584 435.903 31.1941 435.903 44.2638H437.903ZM384.711 2.27177H333.191V4.27177H384.711V2.27177ZM332.191 3.27177V160.072H334.191V3.27177H332.191ZM382.919 27.7918C391.782 27.7918 398.087 29.4582 402.155 32.4165C406.168 35.3347 408.127 39.6017 408.127 45.1598H410.127C410.127 39.0698 407.943 34.1529 403.331 30.799C398.775 27.4854 391.977 25.7918 382.919 25.7918V27.7918ZM408.127 45.1598V49.8638H410.127V45.1598H408.127ZM408.127 49.8638C408.127 55.192 406.17 59.5306 402.218 62.5668C398.228 65.6316 392.092 67.4558 383.591 67.4558V69.4558C392.339 69.4558 398.97 67.5839 403.436 64.1528C407.94 60.693 410.127 55.7355 410.127 49.8638H408.127ZM383.591 67.4558H360.295V69.4558H383.591V67.4558ZM361.295 68.4558V26.7918H359.295V68.4558H361.295ZM360.295 27.7918H382.919V25.7918H360.295V27.7918ZM389.191 91.4078C398.139 91.4078 404.662 93.3436 408.928 96.7089C413.158 100.046 415.295 104.886 415.295 111.016H417.295C417.295 104.377 414.953 98.914 410.167 95.1386C405.417 91.392 398.388 89.4078 389.191 89.4078V91.4078ZM415.295 111.016V115.496H417.295V111.016H415.295ZM415.295 115.496C415.295 121.512 413.158 126.474 408.913 129.954C404.643 133.456 398.121 135.552 389.191 135.552V137.552C398.405 137.552 405.436 135.392 410.181 131.501C414.953 127.589 417.295 122.024 417.295 115.496H415.295ZM389.191 135.552H360.295V137.552H389.191V135.552ZM361.295 136.552V90.4078H359.295V136.552H361.295ZM360.295 91.4078H389.191V89.4078H360.295V91.4078ZM574.797 160.072L573.851 160.394L574.081 161.072H574.797V160.072ZM604.141 160.072V161.072H605.559L605.084 159.737L604.141 160.072ZM548.365 3.27177L549.308 2.93662L549.071 2.27177H548.365V3.27177ZM519.693 3.27177V2.27177H518.989L518.752 2.93543L519.693 3.27177ZM463.694 160.072L462.752 159.735L462.275 161.072H463.694V160.072ZM492.142 160.072V161.072H492.858L493.088 160.394L492.142 160.072ZM503.565 126.472V125.472H502.849L502.619 126.15L503.565 126.472ZM563.373 126.472L564.32 126.15L564.09 125.472H563.373V126.472ZM555.758 102.952V103.952H557.149L556.705 102.633L555.758 102.952ZM510.734 102.952L509.787 102.63L509.337 103.952H510.734V102.952ZM533.357 36.4238L534.305 36.1047L533.362 33.3039L532.411 36.1018L533.357 36.4238ZM574.797 161.072H604.141V159.072H574.797V161.072ZM605.084 159.737L549.308 2.93662L547.423 3.60691L603.199 160.407L605.084 159.737ZM548.365 2.27177H519.693V4.27177H548.365V2.27177ZM518.752 2.93543L462.752 159.735L464.635 160.408L520.635 3.6081L518.752 2.93543ZM463.694 161.072H492.142V159.072H463.694V161.072ZM493.088 160.394L504.512 126.794L502.619 126.15L491.195 159.75L493.088 160.394ZM503.565 127.472H563.373V125.472H503.565V127.472ZM562.427 126.794L573.851 160.394L575.744 159.75L564.32 126.15L562.427 126.794ZM555.758 101.952H510.734V103.952H555.758V101.952ZM511.68 103.274L534.304 36.7457L532.411 36.1018L509.787 102.63L511.68 103.274ZM532.41 36.7429L554.81 103.271L556.705 102.633L534.305 36.1047L532.41 36.7429ZM632.566 160.072H631.566V161.072H632.566V160.072ZM728.886 160.072V161.072H729.886V160.072H728.886ZM728.886 136.552H729.886V135.552H728.886V136.552ZM659.67 136.552H658.67V137.552H659.67V136.552ZM659.67 3.27177H660.67V2.27177H659.67V3.27177ZM632.566 3.27177V2.27177H631.566V3.27177H632.566ZM632.566 161.072H728.886V159.072H632.566V161.072ZM729.886 160.072V136.552H727.886V160.072H729.886ZM728.886 135.552H659.67V137.552H728.886V135.552ZM660.67 136.552V3.27177H658.67V136.552H660.67ZM659.67 2.27177H632.566V4.27177H659.67V2.27177ZM631.566 3.27177V160.072H633.566V3.27177H631.566ZM824.809 49.1918L823.812 49.2737L823.887 50.1918H824.809V49.1918ZM851.464 49.1918V50.1918H852.502L852.464 49.1548L851.464 49.1918ZM787.177 88.3918L786.834 89.3311L786.836 89.332L787.177 88.3918ZM802.633 93.9918L802.989 93.0573L802.981 93.0544L802.973 93.0516L802.633 93.9918ZM770.825 114.152L771.811 113.985L771.67 113.152H770.825V114.152ZM744.169 114.152V113.152H743.05L743.175 114.264L744.169 114.152ZM814.505 70.9198L814.146 71.8535L814.152 71.8555L814.505 70.9198ZM798.153 64.6478L798.511 63.7141L798.506 63.7125L798.153 64.6478ZM798.825 25.5518C807.529 25.5518 813.384 27.5896 817.241 31.4469C821.114 35.3195 823.148 41.1987 823.812 49.2737L825.805 49.1098C825.125 40.8328 823.015 34.392 818.656 30.0327C814.281 25.658 807.816 23.5518 798.825 23.5518V25.5518ZM824.809 50.1918H851.464V48.1918H824.809V50.1918ZM852.464 49.1548C851.897 33.8555 847.243 21.535 838.264 13.0451C829.287 4.55762 816.129 0.0317688 798.825 0.0317688V2.03177C815.792 2.03177 828.394 6.46591 836.889 14.4984C845.382 22.5285 849.912 34.288 850.465 49.2288L852.464 49.1548ZM798.825 0.0317688C781.19 0.0317688 768.262 4.55414 759.735 12.333C751.196 20.1219 747.201 31.055 747.201 43.5918H749.201C749.201 31.4885 753.045 21.1416 761.082 13.8106C769.13 6.4694 781.515 2.03177 798.825 2.03177V0.0317688ZM747.201 43.5918C747.201 55.6273 749.931 64.5179 756.359 71.6987C762.746 78.833 772.685 84.1656 786.834 89.3311L787.519 87.4524C773.444 82.3139 763.895 77.1185 757.85 70.3648C751.846 63.6576 749.201 55.3002 749.201 43.5918H747.201ZM786.836 89.332L802.292 94.932L802.973 93.0516L787.517 87.4516L786.836 89.332ZM802.276 94.9263C811.688 98.5116 817.549 101.474 821.077 105.003C824.526 108.451 825.825 112.526 825.825 118.632H827.825C827.825 112.194 826.435 107.532 822.492 103.589C818.629 99.7256 812.393 96.6399 802.989 93.0573L802.276 94.9263ZM825.825 118.632C825.825 125.294 824.082 129.992 820.363 133.065C816.599 136.176 810.613 137.792 801.737 137.792V139.792C810.78 139.792 817.338 138.16 821.638 134.607C825.983 131.016 827.825 125.634 827.825 118.632H825.825ZM801.737 137.792C791.984 137.792 785.256 135.959 780.613 132.165C775.979 128.379 773.247 122.494 771.811 113.985L769.838 114.318C771.314 123.057 774.182 129.493 779.348 133.714C784.505 137.928 791.777 139.792 801.737 139.792V137.792ZM770.825 113.152H744.169V115.152H770.825V113.152ZM743.175 114.264C745.099 131.358 751.177 143.673 761.154 151.695C771.113 159.702 784.809 163.312 801.737 163.312V161.312C785.064 161.312 771.88 157.753 762.407 150.136C752.952 142.534 747.046 130.769 745.162 114.04L743.175 114.264ZM801.737 163.312C820.008 163.312 833.449 159.254 842.328 151.384C851.23 143.494 855.377 131.924 855.377 117.288H853.377C853.377 131.547 849.347 142.49 841.001 149.887C832.632 157.305 819.753 161.312 801.737 161.312V163.312ZM855.377 117.288C855.377 105.617 853.107 96.6723 846.798 89.1758C840.524 81.7227 830.357 75.8246 814.857 69.984L814.152 71.8555C829.564 77.663 839.333 83.4129 845.267 90.4637C851.166 97.4712 853.377 105.887 853.377 117.288H855.377ZM814.863 69.9861L798.511 63.7141L797.794 65.5815L814.146 71.8534L814.863 69.9861ZM798.506 63.7125C790.201 60.5701 784.84 58.0522 781.532 54.9575C778.316 51.949 776.977 48.3267 776.977 42.6958H774.977C774.977 48.7129 776.437 52.9305 780.165 56.418C783.801 59.8193 789.528 62.4535 797.799 65.5831L798.506 63.7125ZM776.977 42.6958C776.977 37.6138 778.377 33.3912 781.685 30.4196C785.013 27.4295 790.441 25.5518 798.825 25.5518V23.5518C790.184 23.5518 784.188 25.482 780.348 28.9319C776.488 32.4003 774.977 37.2498 774.977 42.6958H776.977Z"
+                        fill="#666666" />
+                </svg>
+            </div>
+        </div>
+
+        <div class="lgb2">
+            <div class="lgb2about">
+                <div class="lgb2abouttext">
+                    <h1 class="lgb2abouttexth1">WE BUILD IMMERSIVE <br>
+                    DESIGN 
+                    <span class="lgb2abouttextlinethrough">SOLUTIONS</span> 
+                    FOR <br> 
+                    YOUR INNOVATIVE <br>
+                    BRANDS 
+                    </h1>
+                </div>
+                <button class="lgb2aboutreadmore">
+                    <span class="lgb2aboutreadmoretext">Read More</span></button>
+            </div>
+        </div>
+
+        <div class="b3">PAGE 3</div>
+        <div class="b4">PAGE 4</div>
+        <div class="b5">PAGE 5</div>
+        <div class="b6">PAGE 6</div>
+
+    </form>
+    <script src="./script.js"></script>
+</body>
+
+</html>
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    display: flex;
+    height: 697vh;
+    max-width: 100vw;
+    flex-direction: column;
+    font-family: 'Supreme', sans-serif;
+    overflow: hidden;
+}
+
+.gbox1 {
+    width: 100vw;
+    height: 100vh;
+    background-color: gray ;
+    display: flex;
+    z-index: 1;
+}
+
+.gleftside {
+    height: 100vh;
+    width: Hug (80px)px;
+    background-color: #00000080;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.gleft2 {
+    display: inline-block; 
+    transition: transform 0.5s ease; 
+}
+
+.gleft2:hover {
+    transform: rotate(180deg) scale(1.2); 
+    cursor: pointer;
+}
+
+
+.grightside {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    padding-left: 4.5%;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 2%;
+}
+
+.grighttop {
+    width: 80vw;
+    height: 128px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2%;
+}
+
+.gtop1 {
+    width: 86px;
+    height: 24px;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 24px;
+    letter-spacing: -0.4000000059604645px;
+    color: white;
+}
+
+.gtopgroup {
+    width: 250px;
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.gtop2 {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18.9px;
+    letter-spacing: 0.04em;
+    color: white;
+}
+
+.gtop3 {
+    opacity: 40%;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18.9px;
+    letter-spacing: 0.04em;
+}
+
+.gmiddle {
+    width: 80vw;
+    height: 60vh;
+}
+
+
+.gmid {
+    width: 780px;
+    height: 386px;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    background-color: transparent;
+}
+
+.gmid1 {
+    width: 100%;
+    height: 96px;
+    font-size: 96px;
+    font-weight: 700;
+    line-height: 96px;
+    letter-spacing: -2px;
+    text-align: left;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.gmid2 {
+    width: 93%;
+    height: 96px;
+    font-size: 96px;
+    font-weight: 700;
+    line-height: 96px;
+    letter-spacing: -2px;
+    text-align: right;
+    text-transform: uppercase;
+    color: #E5E548;
+}
+
+.gmidline {
+    width: 100%;
+    height: 0px;
+    border: 1.6px solid #E5E548;
+    position: absolute;
+    align-items: start;
+}
+
+.gmidline2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.gmid3 {
+    width: 87%;
+    height: 96px;
+    text-align: center;
+    font-size: 96px;
+    font-weight: 700;
+    line-height: 96px;
+    letter-spacing: -2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.gmidgroup {
+    display: flex;
+    width: 95%;
+    gap: 63px;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+}
+    
+.gmid4 {
+    width: 267px;
+    height: 58px;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28.8px;
+    color: #FFFFFF;
+}
+
+.gmid4btn {
+    width: 108px;
+    height: 108px;
+    border-radius: 100%;
+    background-color: #E5E548;
+    color: #000000;
+    border: none;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 16.2px;
+    letter-spacing: 0.016em;
+}
+
+.gvideobox {
+    width: 290px;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    position: absolute;
+    top: 65%;
+    left: 74.5%;
+    z-index: 1;
+}
+
+.gvideo {
+    width: 290px;
+    height: 160px;
+    background-color: black;
+}
+
+.gvideogroup {
+    width: 291px;
+    height: 217px;
+    display: flex;
+    flex-direction: column;
+    gap: 3%;
+}
+
+.gvideotext {
+    width: 100%;
+    height: 22px;
+    font-size: 14px;
+    line-height: 22.4px;
+    letter-spacing: 1px;
+    text-align: end;
+    color: #FFFFFF;
+}
+
+.gvideotext2 {
+    width: 110px;
+    height: 22px;
+    font-size: 14px;
+    line-height: 22.4px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+}
+
+.gvideobtn {
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    top: 39%;
+    left: 6%;
+}
+
+.gend {
+    width: 80vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gendarrow {
+    transition: transform 0.3s ease; 
+    z-index: 1;
+}
+
+.gendarrow:hover {
+    transform: scale(1.2); 
+    cursor: pointer;
+}
+
+.gdecor {
+    width: 885px;
+    height: 358px;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: 0;
+    opacity: 50%;
+    padding-top: 12%;
+}
+
+.b3 {
+    width: 100vw;
+    height: 210vh;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+}
+
+.b4 {
+    width: 100vw;
+    height: 102vh;
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+}
+
+.b5 {
+    width: 100vw;
+    height: 104vh;
+    background-color: burlywood;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+}
+
+.b6 {
+    width: 100vw;
+    height: 91vh;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+}
+
+.lgb2 {
+    width: 100vw;
+    height: 90vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+}
+
+.lgb2abouttext {
+    width: 1060px;
+    height: 448px;
+
+}
+
+.lgb2abouttexth1 {
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+    text-transform: uppercase;
+    color: transparent;
+    -webkit-text-stroke: 1px #ffffff7b;
+}
+
+.lgb2abouttextlinethrough {
+    font-size: 88px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 100%;
+    text-transform: uppercase;
+    color: #E5E548;
+    text-decoration: line-through 1.6px;
+    border: none;
+}
+
+.lgb2aboutreadmore {
+    justify-content: center;
+    align-items: center;
+    border-radius: 88px;
+    border: 1px solid #FFF;
+    background-color: black;
+    width: 110px;
+    height: 40px;
+
+}
+
+.lgb2aboutreadmoretext {
+    color: #FFF;
+    text-align: center;
+    font-family: Supreme;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.192px;
+    text-transform: uppercase;
+}
+
+.lgb2aboutreadmore:hover {
+    cursor: pointer;
+}
