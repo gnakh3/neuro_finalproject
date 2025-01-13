@@ -24,6 +24,16 @@
     padding-bottom: 2%;
 }
 
+.left2 {
+    display: inline-block; 
+    transition: transform 0.5s ease; 
+}
+
+.left2:hover {
+    transform: rotate(360deg) scale(1.2); 
+    cursor: pointer;
+}
+
 .rightside {
     display: flex;
     width: 100%;
@@ -87,7 +97,7 @@
 .mid {
     display: flex;
     align-items: center;
-    gap: 30%;
+    gap: 25%;
 }
 
 .mid1 {
@@ -237,3 +247,4 @@
     bottom: 0;
     right: 0;
 }
+
