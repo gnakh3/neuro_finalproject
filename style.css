@@ -105,86 +105,9 @@
     width: 780px;
     height: 386px;
     display: flex;
-    height: 100vh;
-    background-color: gray ;
-    display: flex;
+    flex-direction: column;
     z-index: 1;
-}
-
-.gleftside {
-    height: 100vh;
-    width: Hug (80px)px;
-    background-color: #00000080;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: column;
-    padding-top: 2%;
-    padding-bottom: 2%;
-}
-
-.grightside {
-    display: flex;
-    width: 100%;
-    height: 100vh;
-    padding-left: 4.5%;
-    flex-direction: column;
-    justify-content: space-between;
-    padding-bottom: 2%;
-}
-
-.grighttop {
-    width: 80vw;
-    height: 128px;
-    display: flex;
-    justify-content: space-between;
-    padding-top: 2%;
-}
-
-.gtop1 {
-    width: 86px;
-    height: 24px;
-    font-size: 24px;
-    font-weight: 800;
-    line-height: 24px;
-    letter-spacing: -0.4000000059604645px;
-    color: white;
-}
-
-.gtopgroup {
-    width: 250px;
-    height: 24px;
-    display: flex;
-    justify-content: space-between;
-}
-
-.gtop2 {
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 18.9px;
-    letter-spacing: 0.04em;
-    color: white;
-}
-
-.gtop3 {
-    opacity: 40%;
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 18.9px;
-    letter-spacing: 0.04em;
-}
-
-.gmiddle {
-    width: 80vw;
-    height: 60vh;
-}
-
-
-.gmid {
-    width: 780px;
-    height: 386px;
-    display: flex;
-    flex-direction: column;
+    background-color: transparent;
 }
 
 .gmid1 {
@@ -246,106 +169,8 @@
     justify-content: center;
     align-items: center;
 }
-    .gmid1 {
-    width: 100%;
-    height: 96px;
-    font-size: 96px;
-    font-weight: 700;
-    line-height: 96px;
-    letter-spacing: -2px;
-    text-align: left;
-    color: #FFFFFF;
-    text-transform: uppercase;
-}
-
-.gmid2 {
-    width: 93%;
-    height: 96px;
-    font-size: 96px;
-    font-weight: 700;
-    line-height: 96px;
-    letter-spacing: -2px;
-    text-align: right;
-    text-transform: uppercase;
-    color: #E5E548;
-}
-
-.gmidline {
-    width: 100%;
-    height: 0px;
-    border: 1.6px solid #E5E548;
-    position: absolute;
-    align-items: start;
-}
-
-.gmidline2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-}
-
-.gmid3 {
-    width: 87%;
-    height: 96px;
-    text-align: center;
-    font-size: 96px;
-    font-weight: 700;
-    line-height: 96px;
-    letter-spacing: -2px;
-    text-transform: uppercase;
-    color: #FFFFFF;
-}
-
-.gmidgroup {
-    display: flex;
-    width: 95%;
-    gap: 63px;
-    height: auto;
-    justify-content: center;
-    align-items: center;
-}
-
+    
 .gmid4 {
-    width: 267px;
-    height: 58px;
-    font-size: 18px;
-    font-weight: 300;
-    line-height: 28.8px;
-    color: #FFFFFF;
-}
-
-.gmid4btn {
-    width: 108px;
-    height: 108px;
-    border-radius: 100%;
-    background-color: #E5E548;
-    color: #000000;
-    border: none;
-    text-align: center;
-    font-size: 12px;
-    font-weight: 700;
-    line-height: 16.2px;
-    letter-spacing: 0.016em;
-}
-
-.gvideobox {
-    width: 290px;
-    display: flex;
-    align-items: end;
-    justify-content: end;
-    position: absolute;
-    top: 636px;
-    left: 1419px;
-    z-index: 1;
-}
-
-.gvideo {
-    width: 290px;
-    height: 160px;
-}
-
-    .gmid4 {
     width: 267px;
     height: 58px;
     font-size: 18px;
@@ -446,50 +271,6 @@
     z-index: 0;
     opacity: 50%;
     padding-top: 12%;
-}
-
-
-.gvideogroup {
-    width: 291px;
-    height: 217px;
-    display: flex;
-    flex-direction: column;
-    gap: 6px;
-}
-
-.gvideotext {
-    width: 100%;
-    height: 22px;
-    font-size: 14px;
-    line-height: 22.4px;
-    letter-spacing: 1px;
-    text-align: end;
-    color: #FFFFFF;
-}
-
-.gvideotext2 {
-    width: 110px;
-    height: 22px;
-    font-size: 14px;
-    line-height: 22.4px;
-    letter-spacing: 1px;
-    color: #FFFFFF;
-}
-
-.gvideobtn {
-    position: absolute;
-    width: 64px;
-    height: 64px;
-    top: 55px;
-    left: 10px;
-
-}
-
-.gend {
-    width: 80vw;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .b3 {
