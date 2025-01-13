@@ -115,14 +115,18 @@ div {
 }
 
 
-.box1, .box2, .box3, .box4 {
+.box1,
+.box2,
+.box3,
+.box4 {
     display: flex;
     flex-direction: column;
     gap: 16px;
 }
 
-.image-box{
+.image-box {
     display: flex;
+    position: relative;
 }
 
 .pic1 {
@@ -141,6 +145,45 @@ div {
     z-index: 2;
 }
 
+/* .hover-line {
+    height: 128px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    pointer-events: none;
+}
+
+.yellow-line {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 128px;
+    background-color: #E5E548;
+    width: 0;
+    transition: width 1s ease;
+}
+
+.arrow-hover {
+    position: absolute;
+    top: 70%;
+    left: 0;
+    padding: 32px;
+    opacity: 0;
+    transform: translateY(-50%);
+    transition: opacity 1s ease, left 1s ease;
+}
+
+.image-box:hover .yellow-line {
+    width: 80%;
+}
+
+.image-box:hover .arrow-hover {
+    opacity: 1;
+    left: 80%;
+} */
+
 .number {
     transform: rotate(-90deg);
     text-align: right;
@@ -150,11 +193,11 @@ div {
     color: transparent;
     font-size: 168px;
     font-weight: 700;
-    line-height: 120px; 
+    line-height: 120px;
     text-transform: uppercase;
     position: absolute;
-    z-index: 11;
-    padding: 18% 1%;
+    z-index: 55;
+    padding: 45% 1%;
     -webkit-text-stroke: 1px #ffffff7b;
 }
 
