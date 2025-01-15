@@ -16,7 +16,7 @@
 .gbox1 {
     width: 100vw;
     height: 100vh;
-    background-color: gray ;
+    background-color: gray;
     display: flex;
     z-index: 1;
 }
@@ -31,15 +31,20 @@
     flex-direction: column;
     padding-top: 2%;
     padding-bottom: 2%;
+    position: fixed; 
+    left: 0; 
+    top: 0;
+    bottom: 0; 
+    z-index: 10; 
 }
 
 .gleft2 {
-    display: inline-block; 
-    transition: transform 0.5s ease; 
+    display: inline-block;
+    transition: transform 0.5s ease;
 }
 
 .gleft2:hover {
-    transform: rotate(180deg) scale(1.2); 
+    transform: rotate(180deg) scale(1.2);
     cursor: pointer;
 }
 
@@ -169,7 +174,7 @@
     justify-content: center;
     align-items: center;
 }
-    
+
 .gmid4 {
     width: 267px;
     height: 58px;
@@ -253,13 +258,31 @@
 }
 
 .gendarrow {
-    transition: transform 0.3s ease; 
+    transition: transform 0.3s ease;
     z-index: 1;
 }
 
 .gendarrow:hover {
-    transform: scale(1.2); 
     cursor: pointer;
+    animation: bounce 1s ease-in-out infinite; 
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0); 
+    }
+
+    25% {
+        transform: translateY(-20px); 
+    }
+
+    50% {
+        transform: translateY(10px);
+    }
+
+    75% {
+        transform: translateY(-10px); 
+    }
 }
 
 .gdecor {

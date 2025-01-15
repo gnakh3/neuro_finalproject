@@ -1,8 +1,8 @@
-document.querySelector('.left2 svg').addEventListener('click', () => {
+document.querySelector('.g1left2 svg').addEventListener('click', () => {
     window.location.href = 'index.html';
 });
 
-const dateElement = document.querySelector('.top3');
+const dateElement = document.querySelector('.g1top3');
 const now = new Date();
 
 const days = ['SUN', 'MON', 'TUE', 'WED', 'THU', 'FRI', 'SAT'];
