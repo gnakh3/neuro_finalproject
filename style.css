@@ -30,8 +30,8 @@
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
-    padding-top: 2%;
-    padding-bottom: 2%;
+    padding-top: 2.01%;
+    padding-bottom: 1.9%;
     position: fixed; 
     left: 0; 
     top: 0;
@@ -40,7 +40,7 @@
 }
 
 .gleft2 {
-    display: inline-block;
+    display: block;
     transition: transform 0.5s ease;
 }
 
@@ -400,3 +400,6 @@
 .lgb2aboutreadmore:hover {
     cursor: pointer;
 }
+
+
+
