@@ -297,16 +297,6 @@
     padding-top: 12%;
 }
 
-.b3 {
-    width: 100vw;
-    height: 210vh;
-    background-color: blue;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 60px;
-}
-
 .b4 {
     width: 100vw;
     height: 102vh;
