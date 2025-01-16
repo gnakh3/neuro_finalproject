@@ -370,7 +370,7 @@
     line-height: 100%;
     text-transform: uppercase;
     color: #E5E548;
-    text-decoration: line-through 1.6px;
+    text-decoration: line-through 1.6px #E5E548;
     border: none;
 }
 
