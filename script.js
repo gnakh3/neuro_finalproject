@@ -18,6 +18,19 @@ const month = String(now.getMonth() + 1).padStart(2, '0');
 
 dateElement.textContent = `${day} ${date}.${month}`;
 
-document.querySelector('.gleft2 svg').addEventListener('click', () => {
-    window.location.href = 'gpage1.html';
+
+const gleft2 = document.querySelector('.gleft2');
+const g1left2 = document.querySelector('.g1left2')
+const mainPage = document.querySelector('.main');
+const hiddenPage = document.querySelector('.g1mainbox');
+
+gleft2.addEventListener('click', () => {
+    mainPage.style.display = 'none';
+    hiddenPage.style.display = 'block';
 });
+
+g1left2.addEventListener('click', () => {
+    mainPage.style.display = 'block';
+    hiddenPage.style.display = 'none';
+});
+
