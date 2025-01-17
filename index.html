@@ -19,7 +19,7 @@
     <form class="main">
         <div class="gbox1">
             <div class="gleftside">
-                <div class="gleft1" id="gleft2">
+                <div class="gleft1">
                     <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path
                             d="M15.2302 28.5714V14.1486L24.7616 28.5714H25.8588V12.3429H24.7616V26.72L15.2531 12.3429H14.1331V28.5714H15.2302Z"
@@ -28,12 +28,13 @@
                     </svg>
                 </div>
                 <div class="gleft2">
-                    <svg width="30" height="53" viewBox="-10 -10 30 53" fill="none" xmlns="http://www.w3.org/2000/svg" class="pause-x">
+                    <svg id="fadeInButtonSVG" width="30" height="53" viewBox="-10 -10 30 53" fill="none" xmlns="http://www.w3.org/2000/svg" class="pause-x">
                         <rect x="-10" y="-10" width="30" height="53" fill="transparent" />
                         <path class="bar1" d="M1 32.0718L0.999999 0.0718075" stroke="white" />
                         <path class="bar2" d="M9 32.0718L9 0.0718075" stroke="white" />
                     </svg>
-                </div>
+                    <div class="fade-in-element"></div> 
+                  </div>
                 <div class="gleft3">
                     <svg width="80" height="118" viewBox="0 0 80 118" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path
@@ -46,7 +47,7 @@
                     </svg>
                 </div>
             </div>
-
+            <div class="fortransition"></div>
             <div class="grightside">
                 <div class="grighttop">
                     <div class="gtop1">NEURO.</div>
@@ -55,7 +56,6 @@
                         <div class="gtop3"></div>
                     </div>
                 </div>
-
                 <div class="gmid">
                     <div class="gmid1">creative team</div>
                     <div class="gmidline2">
@@ -278,7 +278,8 @@
         <div class="b6">PAGE 6</div>
 
     </form>
-    <div class="g1mainbox">
+    <body class="g1main">
+    <div class="g1mainbox" id="hiddenPage">
         <div class="g1mid">
             <div class="g1midleft">
                 <div class="g1mid1">Home</div>
@@ -307,12 +308,11 @@
                 </div>
             </div>
         </div>
-        <div class="g1rigthend">
-            <div class="g1rightendtext">
-                <div class="g1endtext1">NEURO®, inc</div>
-                <div class="g1endtext1">2022</div>
-            </div>
 
+        <div class="g1footer">
+            <div class="g1footertext1">NEURO®, inc</div>
+            <div class="g1footertext1">2022</div>
+        </div>
             <div class="g1rightendimg">
                 <svg width="478" height="161" viewBox="0 0 478 161"
                     fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -332,6 +332,7 @@
             </div>
         </div>
     </div>
+    </body>
     <script src="./script.js"></script>
 </body>
 
