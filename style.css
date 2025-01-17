@@ -336,16 +336,6 @@ html {
     padding-top: 12%;
 }
 
-.b3 {
-    width: 100vw;
-    height: 210vh;
-    background-color: blue;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 60px;
-}
-
 .b4 {
     width: 100vw;
     height: 102vh;
@@ -409,7 +399,7 @@ html {
     line-height: 100%;
     text-transform: uppercase;
     color: #E5E548;
-    text-decoration: line-through 1.6px;
+    text-decoration: line-through 1.6px #E5E548;
     border: none;
 }
 
