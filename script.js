@@ -1,12 +1,32 @@
 const arrow = document.querySelector('.gendarrow svg');
-arrow.addEventListener('click', () => {
-    const nextPage = document.querySelector('.lgb2')
+const nextPage = document.querySelector('.lgb2');  
+const html = document.documentElement;
+const body = document.body;
+
+arrow.addEventListener('click', (event) => {
+    event.preventDefault();  
 
     nextPage.scrollIntoView({
         behavior: 'smooth',
-        block: 'start'
-    })
-})
+        block: 'start',
+    });
+
+    setTimeout(() => {
+        html.style.overflow = 'auto';  
+        body.style.overflow = 'auto';  
+    }, 800);
+});
+
+window.addEventListener('scroll', () => {
+    const scrollTop = window.scrollY;
+    
+    if (scrollTop === 0) {
+        html.style.overflow = 'hidden';
+        body.style.overflow = 'hidden';
+    }
+});
+
+
 
 const dateElement = document.querySelector('.gtop3');
 const now = new Date();
@@ -19,18 +39,35 @@ const month = String(now.getMonth() + 1).padStart(2, '0');
 dateElement.textContent = `${day} ${date}.${month}`;
 
 
-const gleft2 = document.querySelector('.gleft2');
-const g1left2 = document.querySelector('.g1left2')
-const mainPage = document.querySelector('.main');
-const hiddenPage = document.querySelector('.g1mainbox');
+let isPageVisible = false; 
 
-gleft2.addEventListener('click', () => {
-    mainPage.style.display = 'none';
-    hiddenPage.style.display = 'block';
+document.getElementById('fadeInButtonSVG').addEventListener('click', function () {
+    console.log('clicked');
+    const hiddenPage = document.getElementById('hiddenPage');
+    const sideBar = document.querySelector('.gleftside');
+    const mainBox = document.querySelector('.gbox1');
+    const forTransition = document.querySelector('.fortransition')
+
+    if (!isPageVisible) {
+        hiddenPage.style.transition = 'transform 1s ease, opacity 1s ease';
+        hiddenPage.style.opacity = 1;
+        hiddenPage.style.transform = 'translateX(0)'; 
+
+        forTransition.style.backgroundColor= 'black';
+        sideBar.style.backgroundColor = 'black';
+        mainBox.style.zIndex = '0';
+
+        isPageVisible = true; 
+    } else {
+        hiddenPage.style.opacity = 0;
+        hiddenPage.style.transform = 'translateX(-100%)'; 
+
+        setTimeout(() => {
+            forTransition.style.backgroundColor= '';
+            sideBar.style.backgroundColor = '';
+            mainBox.style.zIndex = '';
+        }, 500); 
+
+        isPageVisible = false;
+    }
 });
-
-g1left2.addEventListener('click', () => {
-    mainPage.style.display = 'block';
-    hiddenPage.style.display = 'none';
-});
-
