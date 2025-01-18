@@ -11,19 +11,19 @@ arrow.addEventListener('click', (event) => {
         block: 'start',
     });
 
-    setTimeout(() => {
-        html.style.overflow = 'auto';  
-        body.style.overflow = 'auto';  
-    }, 800);
-});
+//     setTimeout(() => {
+//         html.style.overflow = 'auto';  
+//         body.style.overflow = 'auto';  
+//     }, 800);
+// });
 
-window.addEventListener('scroll', () => {
-    const scrollTop = window.scrollY;
+// window.addEventListener('scroll', () => {
+//     const scrollTop = window.scrollY;
     
-    if (scrollTop === 0) {
-        html.style.overflow = 'hidden';
-        body.style.overflow = 'hidden';
-    }
+//     if (scrollTop === 0) {
+//         html.style.overflow = 'hidden';
+//         body.style.overflow = 'hidden';
+//     }
 });
 
 
