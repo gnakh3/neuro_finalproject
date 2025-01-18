@@ -4,13 +4,6 @@
     box-sizing: border-box;
 }
 
-.main {
-    display: flex;
-    background-color: gray;
-    height: 697vh;
-   max-width:100vw;
-    flex-direction: column;
-}
 
 div {
     font-size: 50px;
