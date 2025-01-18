@@ -447,3 +447,67 @@ html {
   ::-webkit-scrollbar-thumb:hover {
     background: #E5E548;
   }
+
+.lgb5 {
+    width: 100vw;
+    height: 104vh;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+}
+
+.lgb5text {
+    display: flex;
+    width: 550px;
+    padding: 80px 0px;
+    gap: 8px;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: wheat;
+}
+
+.lgb5textstudio {
+    display: flex;
+    width: 227px;
+    height: 56px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.lgb5textstudioinput {
+    -webkit-text-stroke-width: 2;
+    -webkit-text-stroke-color: #666;
+    font-family: Supreme;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 160%; /* 102.4px */
+    text-transform: uppercase;
+}
+
+.lgb5textservices {
+    display: flex;
+    width: 334px;
+    height: 56px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.lgb5textservicesinput {
+    color: var(--NeuYellow, #E5E548);
+    text-align: center;
+
+    /* #1/H3/Bold */
+    font-family: Supreme;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 160%; /* 102.4px */
+    text-transform: uppercase;
+    text-decoration: line-through 1.6px #E5E548;
+
+}
