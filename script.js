@@ -23,8 +23,8 @@ arrow.addEventListener('click', (event) => {
 //     if (scrollTop === 0) {
 //         html.style.overflow = 'hidden';
 //         body.style.overflow = 'hidden';
-   });
-});
+//   });
+  });
 
 
 const dateElement = document.querySelector('.gtop3');
