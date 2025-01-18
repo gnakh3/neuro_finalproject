@@ -5,7 +5,7 @@
     max-width: 100%;
 }
 
-body {
+/* body {
     overflow-x: hidden;
     height: 697vh;
 }
@@ -13,11 +13,11 @@ body {
 html {
     overflow-y: hidden;
     height: 697vh;
-} 
+}  */
 
 .main {
     display: flex;
-    height: 697vh;
+    height: auto;
     max-width: 100vw;
     flex-direction: column;
     font-family: 'Supreme', sans-serif;
@@ -338,7 +338,7 @@ html {
 
 .b4 {
     width: 100vw;
-    height: 102vh;
+    height: 108vh;
     background-color: brown;
     display: flex;
     justify-content: center;
@@ -368,7 +368,7 @@ html {
 
 .lgb2 {
     width: 100vw;
-    height: 90vh;
+    height: 80vh;
     background-color: black;
     display: flex;
     justify-content: center;
