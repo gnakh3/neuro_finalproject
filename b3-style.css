@@ -1,3 +1,8 @@
+<<<<<<< Updated upstream
+=======
+
+
+>>>>>>> Stashed changes
 div {
     font-family: "Poppins", serif;
 }
@@ -274,7 +279,7 @@ div {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10%;
+    padding: 5%;
 }
 
 .btn {
@@ -293,4 +298,33 @@ div {
     font-weight: 700;
     letter-spacing: 0.192px;
     text-transform: uppercase;
+<<<<<<< Updated upstream
 }
+=======
+}
+
+.btn:hover {
+    color: black;
+    background-color: white;
+    cursor: pointer;
+    transition: color 0.3s ease, 0.3s ease; 
+}
+
+
+@media (max-width:750px) {
+    .title1 {
+        font-size: 56px;
+    }
+    
+    .title2 {
+        font-size: 56px;
+    }
+
+    .pic1 {
+        width: 269px;
+        height: 376px;
+    }
+
+
+}
+>>>>>>> Stashed changes
