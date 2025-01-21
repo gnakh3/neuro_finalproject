@@ -71,3 +71,44 @@ document.getElementById('fadeInButtonSVG').addEventListener('click', function ()
         isPageVisible = false;
     }
 });
+
+
+document.querySelector('#forhome').addEventListener('click', function (e) {
+    e.preventDefault(); 
+    document.querySelector('.gbox1').scrollIntoView({
+        behavior: 'smooth', 
+        block: 'start' 
+    });
+});
+
+document.querySelector('#forworks').addEventListener('click', function (e) {
+    e.preventDefault(); 
+    document.querySelector('.lgb2').scrollIntoView({
+        behavior: 'smooth', 
+        block: 'start' 
+    });
+});
+
+document.querySelector('#forcompany').addEventListener('click', function (e) {
+    e.preventDefault(); 
+    document.querySelector('.b3').scrollIntoView({
+        behavior: 'smooth', 
+        block: 'start' 
+    });
+});
+
+document.querySelector('#forthoughts').addEventListener('click', function (e) {
+    e.preventDefault(); 
+    document.querySelector('.b4').scrollIntoView({
+        behavior: 'smooth', 
+        block: 'start' 
+    });
+});
+
+document.querySelector('#forcontact').addEventListener('click', function (e) {
+    e.preventDefault(); 
+    document.querySelector('.b5').scrollIntoView({
+        behavior: 'smooth', 
+        block: 'start' 
+    });
+});
