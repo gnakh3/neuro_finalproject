@@ -18,10 +18,11 @@
     padding-top: 3%;
     align-items: start;
     padding-right: 30%;
+    align-items: center;
 }
 
 .g6top1 {
-    width: 950px;
+    width: 1300px;
     height: 264px;
     top: 80px;
     color: transparent;
@@ -35,6 +36,7 @@
 .g6linedtext {
     color: black;
     position: relative;
+    text-align: left;
 }
 
 .g6line {
@@ -46,9 +48,10 @@
 
 .forg6line {
     display: flex;
-    justify-content: end;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
+    position: relative;
 }
 
 .g6top2 {
@@ -162,7 +165,7 @@
 .g6midbox3 {
     display: flex;
     flex-direction: column;
-    width: 197px;
+    width: 100px;
     height: 120px;
     text-transform: uppercase;
 }
@@ -197,4 +200,18 @@
     font-weight: 400;
     line-height: 22.4px;
     letter-spacing: 1px;
+}
+
+.g6text3:hover {
+    color:black;
+    cursor: pointer;
+    font-size: 16px;
+    transition: color 0.3s ease, 0.3s ease; 
+}
+
+.g6text4:hover {
+    color:black;
+    cursor: pointer;
+    font-size: 16px;
+    transition: color 0.3s ease, 0.3s ease; 
 }

@@ -50,6 +50,7 @@
     color: #E5E548;
     text-decoration: line-through 4px; 
     text-decoration-color: #E5E548;
+    transition: color 0.3s ease, 0.3s ease; 
 }
 
 .g1midright {
