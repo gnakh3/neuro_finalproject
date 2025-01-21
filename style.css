@@ -346,6 +346,7 @@ html {
     font-size: 60px;
 }
 
+<<<<<<< Updated upstream
 .b5 {
     width: 100vw;
     height: 104vh;
@@ -366,6 +367,8 @@ html {
     font-size: 60px;
 }
 
+=======
+>>>>>>> Stashed changes
 .lgb2 {
     width: 100vw;
     height: 90vh;
@@ -448,66 +451,85 @@ html {
     background: #E5E548;
   }
 
-.lgb5 {
+.b5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
     width: 100vw;
+<<<<<<< Updated upstream
     height: 90vh;
     background-color: #000;
+=======
+    height: 104vh;
+    background-color: burlywood;
+>>>>>>> Stashed changes
     display: flex;
-    justify-content: center;
-    align-items: center;
     font-size: 60px;
+
 }
 
-.lgb5text {
+.b5headertext {
+    background-color: #000;;
+    color: white;
+    height: 500px;
+    width: 550px;
+}
+
+
+.b5headertexth1 {
+    background-color: green;
     display: flex;
     width: 550px;
     padding: 80px 0px;
-    gap: 8px;
     flex-direction: column;
     align-items: flex-start;
-    background-color: wheat;
+    gap: 8px;
+    height: 300px;
 }
 
-.lgb5textstudio {
-    display: flex;
-    width: 227px;
-    height: 56px;
-    flex-direction: column;
-    justify-content: center;
-    flex-shrink: 0;
-}
 
-.lgb5textstudioinput {
-    -webkit-text-stroke-width: 2;
-    -webkit-text-stroke-color: #666;
-    font-family: Supreme;
-    font-size: 64px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 160%; /* 102.4px */
-    text-transform: uppercase;
-}
-
-.lgb5textservices {
-    display: flex;
-    width: 334px;
-    height: 56px;
-    flex-direction: column;
-    justify-content: center;
-    flex-shrink: 0;
-}
-
-.lgb5textservicesinput {
+/* 
+.b5bodytextyellow {
     color: var(--NeuYellow, #E5E548);
-    text-align: center;
 
-    /* #1/H3/Bold */
-    font-family: Supreme;
-    font-size: 64px;
+    font-size: 32px;
     font-style: normal;
-    font-weight: 700;
-    line-height: 160%; /* 102.4px */
+    font-weight: 500;
+    line-height: 120%;
+    letter-spacing: 4px;
     text-transform: uppercase;
+<<<<<<< Updated upstream
     text-decoration: line-through 1.6px #E5E548;
 
 }
+=======
+}
+
+.b5bodytextwhite {
+    color: var(--White, #FFF);
+
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 160%;
+}
+
+.b5bodytextdate {
+    color: var(--White, #FFF);
+
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; 
+    letter-spacing: 1px;
+}
+
+.b5bottombutton {
+    display: flex;
+    padding: 16px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+} */
+>>>>>>> Stashed changes
