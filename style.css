@@ -520,7 +520,7 @@ html {
 
 .b5bodytext {
     width: 621px;
-    height: 200px;
+    height: 250px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
