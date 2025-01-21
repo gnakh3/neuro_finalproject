@@ -522,11 +522,7 @@ html {
 
 .b5bodytext {
     width: 621px;
-<<<<<<< Updated upstream
     height: 250px;
-=======
-    height: 240px;
->>>>>>> Stashed changes
     display: flex;
     flex-direction: column;
     justify-content: space-between;

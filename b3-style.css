@@ -1,8 +1,4 @@
-<<<<<<< Updated upstream
-=======
 
-
->>>>>>> Stashed changes
 div {
     font-family: "Poppins", serif;
 }
@@ -298,12 +294,9 @@ div {
     font-weight: 700;
     letter-spacing: 0.192px;
     text-transform: uppercase;
-<<<<<<< Updated upstream
-}
-=======
 }
 
-.btn:hover {
+    .btn:hover {
     color: black;
     background-color: white;
     cursor: pointer;
@@ -327,4 +320,3 @@ div {
 
 
 }
->>>>>>> Stashed changes
