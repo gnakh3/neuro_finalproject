@@ -416,7 +416,6 @@
 
     .g6cont {
         height: 150vh;
-    }
 
     .g6toptext1 {
         font-size: 48px;
@@ -429,8 +428,8 @@
     .g6top {
         width: 90vw;
         height: 60vh;
-    }
-
+      }
+      
     .g6mid3and4box {
         display: flex;
         width: 100vw;
