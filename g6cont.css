@@ -278,12 +278,12 @@
 
     .g6cont {
         width: 100vw;
-        height: 150vh;
+        height: 1300px;
     }
 
     .g6top {
         width: 90vw;
-        height: 69vh;
+        height: 600px;
         align-items: start;
         flex-direction: column;
     }
@@ -311,7 +311,7 @@
         height: auto;
         display: flex;
         justify-content: start;
-        height: 65vh;
+        height: 600px;
     }
 
     .g6mid1 {
@@ -372,12 +372,12 @@
     .g6mid1and2box {
         display: flex;
         flex-direction: column;
-        height: 40vh;
+        height: 350px;
         justify-content: space-between;
     }
 
     .g6end {
-        height: 5vh;
+        height: 50px;
     }
 
     .g6end1 {
@@ -404,18 +404,10 @@
         font-size: 56px;
     }
 
-    .g6top {
-        width: 90vw;
-        height: 75vh;
-    }
-
 }
 
 
 @media (max-width: 683px) {
-
-    .g6cont {
-        height: 150vh;
 
     .g6toptext1 {
         font-size: 48px;
@@ -425,28 +417,15 @@
         font-size: 48px;
     }
 
-    .g6top {
-        width: 90vw;
-        height: 60vh;
-      }
-      
     .g6mid3and4box {
         display: flex;
         width: 100vw;
         justify-content: space-between;
     }
 
-    .g6top1 {
-        width: 1050px;
-        height: 250px;
-    }
-
-
-    .g6mid1and2box {
-        height: 60vh;
-        justify-content: space-between;
-        margin-top: 30px;
-    }
+.g6top {
+    height: 900px;
+}
 
     .g6midbox3 {
         width: 50px;
@@ -454,10 +433,6 @@
 
     .g6midbox4 {
         width: 50px;
-    }
-    
-    .g6mid11 {
-        margin-top: 5vh;
     }
 }
 
@@ -470,19 +445,18 @@
         font-size: 48px;
     }
 
-    .g6top {
-        width: 90vw;
-        height: 93vh;
-    }
-
     .g6mid3and4box {
         display: flex;
         justify-content: space-between;
     }
 
-    .g6top1 {
-        width: 1050px;
-        height: 10px;
+    .g6top {
+        height: 900px;
+    }
+
+    .g6cont {
+        width: 100vw;
+        height: 1500px;
     }
 }
 
@@ -500,16 +474,21 @@
     }
 
     .g6cont {
-        height: 170vh;
+        height: 1700px;
+    }
+    
+    .g6top {
+        height: 900px;
     }
 
-    .g6box1header {
-        margin-top: 5vh;
+    .g6midbox1 {
+        margin-top: 20px;
+        width: 100vw;
     }
-    .g6box2header {
-        margin-top: 5vh;
+    .g6midbox2 {
+        margin-top: 60px;
+        width: 100vw;
     }
-
 }
 
 
@@ -520,5 +499,12 @@
 
     .g6linedtext {
         font-size: 36px;
+    }
+
+    .g6midbox1 {
+        margin-top: 20px;
+    }
+    .g6midbox2 {
+        margin-top: 100px;
     }
 }
