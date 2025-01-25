@@ -22,37 +22,46 @@
 }
 
 .g6top1 {
-    width: 1300px;
+    width: 1050px;
     height: 264px;
-    top: 80px;
+}
+
+.g6toptext1 {
     color: transparent;
     -webkit-text-stroke: 2px #000000;
     font-size: 88px;
     font-weight: 700;
     line-height: 88px;
+    width: 100%;
 }
-
 
 .g6linedtext {
     color: black;
-    position: relative;
-    text-align: left;
+    width: auto;
+    font-size: 88px;
+    font-weight: 700;
+    line-height: 88px;
+
 }
 
-.g6line {
+/* 
+ .g6line {
     width: 480px;
     border: 1.6px solid #000000;
-    position: absolute;
-}
+    position: absolute; 
+    right: 50%;
+    margin-bottom: 200%;
+    z-index: 100;
+ }  */
 
 
-.forg6line {
+/* .forg6line {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     position: relative;
-}
+} */
 
 .g6top2 {
     width: 108px;
@@ -85,6 +94,17 @@
     text-align: left;
     width: 86px;
     height: 24px;
+}
+
+.g6mid11 {
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 24px;
+    letter-spacing: -0.4000000059604645px;
+    text-align: left;
+    width: 86px;
+    height: 24px;
+    display: none;
 }
 
 .g6midbox1 {
@@ -180,9 +200,7 @@
 
 
 .g6contmid {
-    width: 50vw;
     display: flex;
-    justify-content: space-between;
 }
 
 .g6end {
@@ -203,15 +221,287 @@
 }
 
 .g6text3:hover {
-    color:black;
+    color: black;
     cursor: pointer;
     font-size: 16px;
-    transition: color 0.3s ease, 0.3s ease; 
+    transition: color 0.3s ease, 0.3s ease;
 }
 
 .g6text4:hover {
-    color:black;
+    color: black;
     cursor: pointer;
     font-size: 16px;
-    transition: color 0.3s ease, 0.3s ease; 
+    transition: color 0.3s ease, 0.3s ease;
+}
+
+.g6mid3and4box {
+    display: flex;
+    width: 27vw;
+    justify-content: space-between;
+}
+
+.g6mid1and2box {
+    display: flex;
+    width: 40vw;
+    justify-content: space-evenly;
+}
+
+
+@media (max-width: 1500px) {
+
+    .g6top1 {
+        width: 850px;
+        height: 200px;
+    }
+
+    .g6toptext1 {
+        font-size: 70px;
+    }
+
+    .g6linedtext {
+        font-size: 70px;
+    }
+
+    .g6top {
+        padding-right: 15%;
+    }
+
+    .g6contmid {
+        width: 70vw;
+    }
+
+
+}
+
+@media (max-width: 1150px) {
+
+    .g6cont {
+        width: 100vw;
+        height: 150vh;
+    }
+
+    .g6top {
+        width: 90vw;
+        height: 69vh;
+        align-items: start;
+        flex-direction: column;
+    }
+
+    .g6top1 {
+        width: 50vw;
+    }
+
+    .g6toptext1 {
+        font-size: 70px;
+    }
+
+    .g6linedtext {
+        font-size: 70px;
+    }
+
+    .g6top2 {
+        width: 90px;
+        height: 90px;
+        font-size: 10px;
+    }
+
+    .g6mid {
+        width: 90vw;
+        height: auto;
+        display: flex;
+        justify-content: start;
+        height: 65vh;
+    }
+
+    .g6mid1 {
+        display: none;
+    }
+
+    .g6mid11 {
+        display: flex;
+    }
+
+    .g6box1header {
+        font-size: 17px;
+    }
+
+    .g6det1 {
+        font-size: 14px;
+    }
+
+    .g6box2header {
+        font-size: 17px;
+    }
+
+    .g6det2 {
+        font-size: 14px;
+    }
+
+    .g6text3 {
+        font-size: 14px;
+    }
+
+    .g6text4 {
+        font-size: 14px;
+    }
+
+    .g6midbox1 {
+        gap: 16px;
+    }
+
+    .g6midbox2 {
+        gap: 16px;
+
+    }
+
+    .g6contmid {
+        width: 50vw;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column-reverse;
+        height: auto;
+    }
+
+    .g6mid3and4box {
+        display: flex;
+        width: 50vw;
+        justify-content: space-between;
+    }
+
+    .g6mid1and2box {
+        display: flex;
+        flex-direction: column;
+        height: 40vh;
+        justify-content: space-between;
+    }
+
+    .g6end {
+        height: 5vh;
+    }
+
+    .g6end1 {
+        font-size: 12px;
+    }
+
+    .g6text3:hover {
+        font-size: 13px;
+    }
+
+    .g6text4:hover {
+        font-size: 13px;
+    }
+
+
+}
+
+@media (max-width: 1000px) {
+    .g6toptext1 {
+        font-size: 56px;
+    }
+
+    .g6linedtext {
+        font-size: 56px;
+    }
+
+    .g6top {
+        width: 90vw;
+        height: 75vh;
+    }
+
+}
+
+
+@media (max-width: 683px) {
+
+    .g6cont {
+        height: 140vh;
+    }
+
+    .g6toptext1 {
+        font-size: 48px;
+    }
+
+    .g6linedtext {
+        font-size: 48px;
+    }
+
+    .g6top {
+        width: 90vw;
+        height: 65vh;
+    }
+
+    .g6mid3and4box {
+        display: flex;
+        width: 100vw;
+        justify-content: space-between;
+    }
+
+    .g6top1 {
+        width: 1050px;
+        height: 250px;
+    }
+
+
+    .g6mid1and2box {
+        height: 56vh;
+        justify-content: space-between;
+        margin-top: 5vh;
+    }
+
+
+    .g6midbox3 {
+        width: 50px;
+    }
+
+    .g6midbox4 {
+        width: 50px;
+    }
+
+
+}
+
+@media (max-width: 450px) {
+    .g6toptext1 {
+        font-size: 48px;
+    }
+
+    .g6linedtext {
+        font-size: 48px;
+    }
+
+    .g6top {
+        width: 90vw;
+        height: 72vh;
+    }
+
+    .g6mid3and4box {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .g6top1 {
+        width: 1050px;
+        height: 250px;
+    }
+}
+
+@media (max-width: 382px) {
+    .g6toptext1 {
+        font-size: 40px;
+    }
+
+    .g6linedtext {
+        font-size: 40px;
+    }
+}
+
+
+@media (max-width: 319px) {
+    .g6toptext1 {
+        font-size: 36px;
+    }
+
+    .g6linedtext {
+        font-size: 36px;
+    }
 }
