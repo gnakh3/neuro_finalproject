@@ -406,6 +406,12 @@
 
 }
 
+@media (max-width: 800px) {
+    .g6top {
+        height: 700px;
+    }
+}
+
 
 @media (max-width: 683px) {
 
@@ -424,7 +430,7 @@
     }
 
 .g6top {
-    height: 900px;
+    height: 650px;
 }
 
     .g6midbox3 {
@@ -435,6 +441,15 @@
         width: 50px;
     }
 }
+
+@media (max-width: 585px) {
+    .g6top {
+        height: 790px;
+    }
+    
+
+}
+
 
 @media (max-width: 450px) {
     .g6toptext1 {
@@ -451,7 +466,7 @@
     }
 
     .g6top {
-        height: 900px;
+        height: 770px;
     }
 
     .g6cont {
@@ -460,7 +475,10 @@
     }
 }
 
-@media (max-width: 382px) {
+@media (max-width: 436px) {
+    .g6top {
+        height: 760px;
+    }
     .g6toptext1 {
         font-size: 40px;
     }
@@ -468,17 +486,19 @@
     .g6linedtext {
         font-size: 40px;
     }
+}
 
+@media (max-width: 382px) {
     .g6end1 {
         font-size: 9px;
     }
 
     .g6cont {
-        height: 1700px;
+        height: 1400px;
     }
     
     .g6top {
-        height: 900px;
+        height: 700px;
     }
 
     .g6midbox1 {
@@ -488,6 +508,22 @@
     .g6midbox2 {
         margin-top: 60px;
         width: 100vw;
+    }
+}
+
+@media (max-width: 363px) {
+   
+    
+    .g6top {
+        height: 800px;
+    }
+
+    .g6toptext1 {
+        font-size: 36px;
+    }
+
+    .g6linedtext {
+        font-size: 36px;
     }
 }
 
@@ -506,5 +542,76 @@
     }
     .g6midbox2 {
         margin-top: 100px;
+    }
+
+    .g6cont {
+        height: 1500px;
+    }
+    
+    .g6top {
+        height: 840px;
+    }
+
+}
+
+@media (max-width: 307px) {
+    .g6cont {
+        height: 1450px;
+    }
+    
+    .g6top {
+        height: 700px;
+    }
+
+    .g6toptext1 {
+        font-size: 32px;
+    }
+
+    .g6linedtext {
+        font-size: 32px;
+    }
+}
+
+@media (max-width: 291px) {
+    .g6cont {
+        height: 1500px;
+    }
+    
+    .g6top {
+        height: 790px;
+    }
+
+    .g6toptext1 {
+        font-size: 32px;
+    }
+
+    .g6linedtext {
+        font-size: 32px;
+    }
+  
+    .g6mid1and2box {
+        width: 100vw;
+    }
+}
+
+@media (max-width: 272px) {
+    .g6cont {
+        height: 1600px;
+    }
+    
+    .g6top {
+        height: 890px;
+    }
+
+    .g6toptext1 {
+        font-size: 32px;
+    }
+
+    .g6linedtext {
+        font-size: 32px;
+    }
+  
+    .g6mid1and2box {
+        width: 100vw;
     }
 }
