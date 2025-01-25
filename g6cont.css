@@ -8,6 +8,7 @@
     padding-left: 3%;
     padding-right: 3%;
     flex-direction: column;
+    overflow: hidden;
 }
 
 .g6top {
@@ -414,7 +415,7 @@
 @media (max-width: 683px) {
 
     .g6cont {
-        height: 140vh;
+        height: 150vh;
     }
 
     .g6toptext1 {
@@ -427,7 +428,7 @@
 
     .g6top {
         width: 90vw;
-        height: 65vh;
+        height: 60vh;
     }
 
     .g6mid3and4box {
@@ -443,11 +444,10 @@
 
 
     .g6mid1and2box {
-        height: 56vh;
+        height: 60vh;
         justify-content: space-between;
-        margin-top: 5vh;
+        margin-top: 30px;
     }
-
 
     .g6midbox3 {
         width: 50px;
@@ -456,8 +456,10 @@
     .g6midbox4 {
         width: 50px;
     }
-
-
+    
+    .g6mid11 {
+        margin-top: 5vh;
+    }
 }
 
 @media (max-width: 450px) {
@@ -471,7 +473,7 @@
 
     .g6top {
         width: 90vw;
-        height: 72vh;
+        height: 93vh;
     }
 
     .g6mid3and4box {
@@ -481,7 +483,7 @@
 
     .g6top1 {
         width: 1050px;
-        height: 250px;
+        height: 10px;
     }
 }
 
@@ -493,6 +495,22 @@
     .g6linedtext {
         font-size: 40px;
     }
+
+    .g6end1 {
+        font-size: 9px;
+    }
+
+    .g6cont {
+        height: 170vh;
+    }
+
+    .g6box1header {
+        margin-top: 5vh;
+    }
+    .g6box2header {
+        margin-top: 5vh;
+    }
+
 }
 
 
