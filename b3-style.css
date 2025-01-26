@@ -186,7 +186,7 @@ div {
     height: 128px;
     width: 128px;
     opacity: 0;
-    transform: translateX(0%);
+    transform: translateY(0%);
     transition: opacity 1s ease, left 1s ease;
 }
 
@@ -203,7 +203,8 @@ div {
     pointer-events: none;
     position: relative;
     transition: opacity 1s ease, left 1s ease;
-    transform: translateX(-540%);
+    transform: translateY(0%);
+    /* transform: translateX(-540%); */
 }
 
 .image-box:hover .yellow-line {
@@ -212,12 +213,12 @@ div {
 
 .image-box:hover .yellow-box {
     opacity: 1;
-    transform: translateX(340%);
+    left: 80%;
 }
 
 .image-box:hover .arrow {
     opacity: 1;
-    transform: translateX(340%);
+    left: 40%
 }
 
 .number-container {
@@ -409,12 +410,12 @@ div {
     
     .image-box:hover .yellow-box {
         opacity: 1;
-        transform: translateX(120%);
+        left: 60%;
     }
     
     .image-box:hover .arrow {
         opacity: 1;
-        transform: translateX(120%);
+        left: 30%;
     }
 
 }
