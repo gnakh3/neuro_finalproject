@@ -472,15 +472,6 @@
     .gmid4btn {
         width: 100px;
         height: 100px;
-        border-radius: 100%;
-        background-color: #E5E548;
-        color: #000000;
-        border: none;
-        text-align: center;
-        font-size: 12px;
-        font-weight: 700;
-        line-height: 16.2px;
-        letter-spacing: 0.016em;
     }
 
     .gvideobox {
@@ -494,11 +485,6 @@
         z-index: 1;
     }
 
-    .gvideo {
-        width: 290px;
-        height: 160px;
-        background-color: white;
-    }
 
     .gvideotext2 {
         width: 110px;
