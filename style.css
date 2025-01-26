@@ -114,6 +114,11 @@ html {
     color: white;
 }
 
+.gleft2y {
+    display: none;
+}
+
+
 .gtop11 {
     width: 86px;
     height: 24px;
@@ -284,6 +289,10 @@ html {
 .gendarrow {
     transition: transform 0.3s ease;
     z-index: 1;
+}
+
+.gendarrowr {
+    display: none;
 }
 
 .gendarrow:hover {
