@@ -406,16 +406,6 @@ html {
     background: #E5E548;
 }
 
-.b4 {
-    width: 100vw;
-    height: 102vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 60px;
-}
-
-
 .b5 {
     display: flex;
     flex-direction: column;
