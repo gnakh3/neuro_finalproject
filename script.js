@@ -16,21 +16,21 @@ arrow.addEventListener('click', (event) => {
         nextPage.scrollIntoView({
             behavior: 'smooth',
             block: 'start',
-        }); 
-    //     setTimeout(() => {
-    //         html.style.overflow = 'auto';  
-    //         body.style.overflow = 'auto';  
-    //     }, 800);
-    // });
+        });
+        //     setTimeout(() => {
+        //         html.style.overflow = 'auto';  
+        //         body.style.overflow = 'auto';  
+        //     }, 800);
+        // });
 
-    // window.addEventListener('scroll', () => {
-    //     const scrollTop = window.scrollY;
+        // window.addEventListener('scroll', () => {
+        //     const scrollTop = window.scrollY;
 
-    //     if (scrollTop === 0) {
-    //         html.style.overflow = 'hidden';
-    //         body.style.overflow = 'hidden';
-    //     }
-}) 
+        //     if (scrollTop === 0) {
+        //         html.style.overflow = 'hidden';
+        //         body.style.overflow = 'hidden';
+        //     }
+    })
 });
 
 arrow1.addEventListener('click', (event) => {
@@ -38,7 +38,8 @@ arrow1.addEventListener('click', (event) => {
     nextPage.scrollIntoView({
         behavior: 'smooth',
         block: 'start',
-    }); })
+    });
+})
 
 
 const dateElement = document.querySelector('.gtop3');
@@ -85,9 +86,6 @@ document.getElementById('fadeInButtonSVG').addEventListener('click', function ()
     }
 });
 
-
-let isPageVisible1 = false;
-
 document.getElementById('fadeInButtonSVGy').addEventListener('click', function () {
     console.log('clicked');
     const hiddenPage = document.getElementById('hiddenPage');
@@ -102,6 +100,7 @@ document.getElementById('fadeInButtonSVGy').addEventListener('click', function (
 
         forTransition.style.backgroundColor = 'black';
         sideBar.style.backgroundColor = 'black';
+        sideBar.style.backgroundImage = 'none';
         mainBox.style.zIndex = '0';
 
         isPageVisible = true;
@@ -113,6 +112,7 @@ document.getElementById('fadeInButtonSVGy').addEventListener('click', function (
             forTransition.style.backgroundColor = '';
             sideBar.style.backgroundColor = '';
             mainBox.style.zIndex = '';
+            sideBar.style.backgroundImage = '';
         }, 500);
 
         isPageVisible = false;
@@ -121,41 +121,49 @@ document.getElementById('fadeInButtonSVGy').addEventListener('click', function (
 
 
 document.querySelector('#forhome').addEventListener('click', function (e) {
-    e.preventDefault(); 
+    e.preventDefault();
     document.querySelector('.gbox1').scrollIntoView({
-        behavior: 'smooth', 
-        block: 'start' 
+        behavior: 'smooth',
+        block: 'start'
     });
 });
 
 document.querySelector('#forworks').addEventListener('click', function (e) {
-    e.preventDefault(); 
+    e.preventDefault();
     document.querySelector('.lgb2').scrollIntoView({
-        behavior: 'smooth', 
-        block: 'start' 
+        behavior: 'smooth',
+        block: 'start'
     });
 });
 
 document.querySelector('#forcompany').addEventListener('click', function (e) {
-    e.preventDefault(); 
+    e.preventDefault();
     document.querySelector('.b3').scrollIntoView({
-        behavior: 'smooth', 
-        block: 'start' 
+        behavior: 'smooth',
+        block: 'start'
     });
 });
 
 document.querySelector('#forthoughts').addEventListener('click', function (e) {
-    e.preventDefault(); 
+    e.preventDefault();
     document.querySelector('.b4').scrollIntoView({
-        behavior: 'smooth', 
-        block: 'start' 
+        behavior: 'smooth',
+        block: 'start'
     });
 });
 
 document.querySelector('#forcontact').addEventListener('click', function (e) {
-    e.preventDefault(); 
+    e.preventDefault();
     document.querySelector('.b5').scrollIntoView({
-        behavior: 'smooth', 
-        block: 'start' 
+        behavior: 'smooth',
+        block: 'start'
     });
 });
+
+const transitionButton = document.querySelector('#fadeInButtonSVG');
+
+transitionButton.addEventListener('click', () => {
+  transitionButton.classList.toggle('rotated');
+});
+
+

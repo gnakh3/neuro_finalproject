@@ -396,19 +396,31 @@
 }
 
 @media (max-width: 1000px) {
+    .g6cont {
+        width: 100vw;
+        height: 1000px;
+    }
+
     .g6toptext1 {
         font-size: 56px;
+        line-height: 70px;
     }
 
     .g6linedtext {
         font-size: 56px;
+        line-height: 70px;
     }
 
 }
 
 @media (max-width: 800px) {
+    .g6cont {
+        width: 100vw;
+        height: 1100px;
+    }
+    
     .g6top {
-        height: 700px;
+        height: 600px;
     }
 }
 
@@ -454,10 +466,12 @@
 @media (max-width: 450px) {
     .g6toptext1 {
         font-size: 48px;
+        line-height: 50px;
     }
 
     .g6linedtext {
         font-size: 48px;
+        line-height: 50px;
     }
 
     .g6mid3and4box {
@@ -466,18 +480,18 @@
     }
 
     .g6top {
-        height: 770px;
+        height: 500px;
     }
 
     .g6cont {
         width: 100vw;
-        height: 1500px;
+        height: 1100px;
     }
 }
 
 @media (max-width: 436px) {
     .g6top {
-        height: 760px;
+        height: 500px;
     }
     .g6toptext1 {
         font-size: 40px;
@@ -494,11 +508,11 @@
     }
 
     .g6cont {
-        height: 1400px;
+        height: 1100px;
     }
     
     .g6top {
-        height: 700px;
+        height: 500px;
     }
 
     .g6midbox1 {
@@ -515,52 +529,43 @@
    
     
     .g6top {
-        height: 800px;
+        height: 440px;
     }
 
     .g6toptext1 {
         font-size: 36px;
+        line-height: 44px;
     }
 
     .g6linedtext {
         font-size: 36px;
+        line-height: 44px;
+    }
+
+    .g6cont {
+        height: 1000px;
     }
 }
 
 
-@media (max-width: 319px) {
-    .g6toptext1 {
-        font-size: 36px;
-    }
-
-    .g6linedtext {
-        font-size: 36px;
-    }
-
-    .g6midbox1 {
-        margin-top: 20px;
-    }
-    .g6midbox2 {
-        margin-top: 100px;
-    }
-
+@media (max-width: 326px) {
     .g6cont {
-        height: 1500px;
+        height: 1100px;
     }
     
     .g6top {
-        height: 840px;
+        height: 450px;
     }
 
 }
 
 @media (max-width: 307px) {
     .g6cont {
-        height: 1450px;
+        height: 1000px;
     }
     
     .g6top {
-        height: 700px;
+        height: 430px;
     }
 
     .g6toptext1 {
@@ -574,11 +579,11 @@
 
 @media (max-width: 291px) {
     .g6cont {
-        height: 1500px;
+        height: 1100px;
     }
     
     .g6top {
-        height: 790px;
+        height: 450px;
     }
 
     .g6toptext1 {
@@ -596,21 +601,13 @@
 
 @media (max-width: 272px) {
     .g6cont {
-        height: 1600px;
+        height: 1150px;
     }
     
     .g6top {
-        height: 890px;
+        height: 500px;
     }
 
-    .g6toptext1 {
-        font-size: 32px;
-    }
-
-    .g6linedtext {
-        font-size: 32px;
-    }
-  
     .g6mid1and2box {
         width: 100vw;
     }
