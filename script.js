@@ -1,16 +1,22 @@
-const arrow = document.querySelector('.gendarrow svg');
+const arrow = document.querySelector('.gendarrows');
+const arrow1 = document.querySelector('.gendarrow');
 const nextPage = document.querySelector('.lgb2');
 const html = document.documentElement;
 const body = document.body;
 
 arrow.addEventListener('click', (event) => {
     event.preventDefault();
-
     nextPage.scrollIntoView({
         behavior: 'smooth',
         block: 'start',
     });
 
+    arrow1.addEventListener('click', (event) => {
+        event.preventDefault();
+        nextPage.scrollIntoView({
+            behavior: 'smooth',
+            block: 'start',
+        }); 
     //     setTimeout(() => {
     //         html.style.overflow = 'auto';  
     //         body.style.overflow = 'auto';  
@@ -24,8 +30,15 @@ arrow.addEventListener('click', (event) => {
     //         html.style.overflow = 'hidden';
     //         body.style.overflow = 'hidden';
     //     }
+}) 
 });
 
+arrow1.addEventListener('click', (event) => {
+    event.preventDefault();
+    nextPage.scrollIntoView({
+        behavior: 'smooth',
+        block: 'start',
+    }); })
 
 
 const dateElement = document.querySelector('.gtop3');
@@ -61,6 +74,40 @@ document.getElementById('fadeInButtonSVG').addEventListener('click', function ()
     } else {
         hiddenPage.style.opacity = 0;
         hiddenPage.style.transform = 'translateX(-100%)';
+
+        setTimeout(() => {
+            forTransition.style.backgroundColor = '';
+            sideBar.style.backgroundColor = '';
+            mainBox.style.zIndex = '';
+        }, 500);
+
+        isPageVisible = false;
+    }
+});
+
+
+let isPageVisible1 = false;
+
+document.getElementById('fadeInButtonSVGy').addEventListener('click', function () {
+    console.log('clicked');
+    const hiddenPage = document.getElementById('hiddenPage');
+    const mainBox = document.querySelector('.gbox1');
+    const forTransition = document.querySelector('.fortransition')
+    const sideBar = document.querySelector('.gleftside');
+
+    if (!isPageVisible) {
+        hiddenPage.style.transition = 'transform 1s ease, opacity 1s ease';
+        hiddenPage.style.opacity = 1;
+        hiddenPage.style.transform = 'translateY(0)';
+
+        forTransition.style.backgroundColor = 'black';
+        sideBar.style.backgroundColor = 'black';
+        mainBox.style.zIndex = '0';
+
+        isPageVisible = true;
+    } else {
+        hiddenPage.style.opacity = 0;
+        hiddenPage.style.transform = 'translateY(-100%)';
 
         setTimeout(() => {
             forTransition.style.backgroundColor = '';
