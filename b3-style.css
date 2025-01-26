@@ -322,24 +322,6 @@ div {
 }
 
 
-@media (max-width:750px) {
-    .title1 {
-        font-size: 56px;
-    }
-    
-    .title2 {
-        font-size: 56px;
-    }
-
-    .pic1 {
-        width: 269px;
-        height: 376px;
-    }
-
-
-}
-
-
 
 @media (max-width:750px) {
     .title1 {
