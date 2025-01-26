@@ -533,6 +533,7 @@
         transform: translateY(-100%);
         padding-bottom: 0;
         padding-left: 24px;
+        top: 50px;
     }
 
     .g1mid {
