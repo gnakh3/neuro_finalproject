@@ -321,6 +321,7 @@
         padding-right: 4%;
         z-index: 1;
         transition: background-color 0.5s ease-in-out;
+        transition: background-image 0.5s ease-in-out;
     }
 
     .gleft1 {
