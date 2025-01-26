@@ -555,3 +555,75 @@ html {
     cursor: pointer;
     transition: color 0.3s ease, 0.3s ease;
 }
+
+@media (max-width: 1024px) {
+    .b5body {
+        flex-direction: column;
+        height: auto;
+        gap: 30px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .b5bodytext {
+        width: 100%;
+        text-align: center;
+    }
+
+    .b5bodytextyellow {
+        font-size: 28px;
+        line-height: 34px;
+        letter-spacing: 3px;
+    }
+
+    .b5bodytextwhite {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .b5bottombutton {
+        width: 140px;
+        height: 50px;
+        font-size: 14px;
+    }
+}
+
+/* For Mobile Devices (Up to 768px) */
+@media (max-width: 768px) {
+    .b5body {
+        width: 90vw;
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+
+    .b5bodytextyellow {
+        font-size: 24px;
+        line-height: 30px;
+        letter-spacing: 2px;
+        width: 100%;
+    }
+
+    .b5bodytextwhite {
+        font-size: 16px;
+        line-height: 26px;
+        width: 100%;
+    }
+
+    .b5bodytextdate {
+        font-size: 12px;
+    }
+
+    .b5bottombutton {
+        width: 100px;
+        height: 40px;
+        font-size: 12px;
+    }
+
+    .b5bottom {
+        flex-direction: column;
+        gap: 20px;
+        height: auto;
+    }
+}
