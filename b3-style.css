@@ -321,7 +321,7 @@ div {
 
 
 
-@media (max-width:750px) {
+@media (max-width:1262px) {
     .title1 {
         font-size: 56px;
     }
@@ -366,7 +366,7 @@ div {
     }
 
     .grid-container>div {
-        flex: 0 0 60%;
+        flex: 0 0 30%;
         scroll-snap-align: center;
     }
 
