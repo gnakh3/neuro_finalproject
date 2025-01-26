@@ -50,6 +50,7 @@
     color: #E5E548;
     text-decoration: line-through 4px; 
     text-decoration-color: #E5E548;
+    transition: color 0.3s ease, 0.3s ease; 
 }
 
 .g1midright {
@@ -75,7 +76,7 @@
 }
 
 .g1midrightbottom {
-    width: 197px;
+    width: 250px;
     height: 120px;
     padding-top: 27%;
 }
@@ -124,4 +125,520 @@
     line-height: 16.2px;
     letter-spacing: 0.04em;
     color: #666666;
+}
+
+@media (max-width: 1200px) {
+    
+    
+    .gvideobox {
+        width: 290px;
+        display: flex;
+        align-items: end;
+        justify-content: end;
+        position: absolute;
+        top: 65%;
+        left: 70.5%;
+        z-index: 1;
+    }
+    .g1footer {
+        width: 25vw;
+    }
+    
+    .lgb2 {
+     padding-left: 3%;
+    }
+
+    .lgb2about {
+        padding-left: 10vw;
+        height: 80vh;
+        justify-content: space-evenly;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .lgb2abouttexth1 {
+        font-size:70px;
+    }
+    
+    .lgb2abouttextlinethrough {
+        font-size: 70px;
+    }
+
+}
+
+@media (max-width: 1000px) {
+   .gdecor {
+    display: none;
+   }
+
+   .gleftside {
+    width: 10vw;
+   }
+
+   .gvideobox {
+        top: 70%;
+        left: 50%;
+    }
+
+    .gmiddle {
+        width: 60vw;
+    }
+    
+    
+    .gmid {
+        width: 550px;
+        height: 420px;
+    }
+    
+    .gmid1 {
+        font-size: 72px;
+    }
+    
+    .gmid2 {
+        font-size: 72px;
+    }
+    
+    .gmidline {
+        width: 95%;
+    }
+    
+    .gmid3 {
+        font-size: 72px;
+    }
+    
+    .gmid4 {
+        width: 320px;
+    }
+    
+    .gmid4btn {
+        width: 85px;
+        height: 85px;
+        font-size: 11px;
+    }
+    
+   
+    .g1mainbox {
+        padding-left: 2%;
+    }
+
+
+    
+    .g1mid1 {
+        font-size: 40px;
+    }
+    
+    .g1midright {
+        width: 270px;
+        height: 390px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 8vw;
+    }
+    
+    .g1top2text {
+        font-size: 12px;
+        line-height: 33.6px;
+        letter-spacing: 1px;
+        color: white;
+        padding-top: 1%;
+    }
+    
+    .g1midrightbottom {
+        width: 197px;
+        height: 120px;
+        padding-top: 27%;
+    }
+    
+    .g1midbot1 {
+        font-size: 16px;
+    }
+    
+    .g1bot2text {
+        font-size: 12px;
+    }
+    
+    .g1rightendimg {
+      display: none;
+    }
+    
+    .g1footertext1 {
+        font-size: 10px;
+    }
+
+    .lgb2 {
+        padding-left: 3%;
+       }
+   
+       .lgb2about {
+           padding-left: 10vw;
+           height: 80vh;
+           justify-content: space-evenly;
+           display: flex;
+           flex-direction: column;
+       }
+       
+       .lgb2abouttexth1 {
+           font-size:60px;
+       }
+       
+       .lgb2abouttextlinethrough {
+           font-size: 60px;
+       }
+   
+
+
+
+
+}
+
+
+
+
+
+@media (max-width: 610px) {
+    .gbox1 {
+    max-width: 100vw;
+    height: 80vh;
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    transition: background-color 0.5s ease;
+    justify-content: space-between;
+}
+
+.gleftside {
+    height: 7vh;
+    width: 100vw;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding-top: 2.01%;
+    padding-left: 4%;
+    padding-right: 4%;
+    z-index: 1;
+    transition: background-color 0.5s ease-in-out;
+}
+
+.gleft1 {
+    display: none;
+}
+
+.gleft3 {
+    display: none;
+}
+
+.gtop11 {
+    display: flex;
+}
+
+.fortransition {
+    display: none;
+}
+
+.gleft2 {
+    display: block;
+    transition: transform 0.5s ease;
+    z-index: 10;
+    position: relative;
+}
+
+.gleft2:hover {
+    transform: rotate(180deg) scale(1.2);
+    cursor: pointer;
+    z-index: 20;
+}
+
+.fade-in-element {
+    opacity: 0;
+    transform: translateY(-20px);
+    transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+}
+
+.fade-in-element.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+.grightside {
+    display: flex;
+    width: 100%;
+    height: 40vh;
+    padding-left: 4.5%;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 2%;
+}
+
+.grighttop {
+    display: none;
+}
+
+
+.gtop1 {
+    width: 86px;
+    height: 24px;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 24px;
+    letter-spacing: -0.4000000059604645px;
+    color: white;
+}
+
+.gtopgroup {
+    width: 250px;
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.gtop2 {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18.9px;
+    letter-spacing: 0.04em;
+    color: white;
+}
+
+.gtop3 {
+    opacity: 60%;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18.9px;
+    letter-spacing: 0.04em;
+    color: white;
+}
+
+.gmiddle {
+    width: 80vw;
+    height: 70vh;
+}
+
+
+.gmid {
+    width: 820px;
+    height: 420px;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    background-color: transparent;
+}
+
+.gmid1 {
+    width: 100%;
+    height: 55px;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 96px;
+    letter-spacing: -2px;
+    text-align: start;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.gmid2 {
+    width: 93%;
+    height: 96px;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 96px;
+    letter-spacing: -2px;
+    text-align: start;
+    text-transform: uppercase;
+    color: #E5E548;
+}
+
+.gmidline {
+    width: 85%;
+    border: 1.6px solid #E5E548;
+    position: absolute;
+}
+
+.gmidline2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.gmid3 {
+    width: 87%;
+    height: 40px;
+    text-align: start;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 96px;
+    letter-spacing: -2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.gmidgroup {
+    display: flex;
+    width: 95%;
+    gap: 63px;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.gmid4 {
+    width: 267px;
+    height: 58px;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28.8px;
+    color: #FFFFFF;
+}
+
+.gmid4btn {
+    width: 108px;
+    height: 108px;
+    border-radius: 100%;
+    background-color: #E5E548;
+    color: #000000;
+    border: none;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 16.2px;
+    letter-spacing: 0.016em;
+}
+
+.gvideobox {
+    width: 290px;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    position: absolute;
+    top: 100%;
+    left: 25%;
+    z-index: 1;
+}
+
+.gvideo {
+    width: 290px;
+    height: 160px;
+    background-color: white;
+}
+
+.gvideotext2 {
+    width: 110px;
+    height: 22px;
+    font-size: 14px;
+    line-height: 22.4px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+}
+
+.gend {
+    width: 80vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gendarrow {
+    transition: transform 0.3s ease;
+    z-index: 1;
+}
+
+.gendarrow:hover {
+    cursor: pointer;
+    animation: bounce 1s ease-in-out infinite;
+}
+
+@keyframes bounce {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    25% {
+        transform: translateY(-20px);
+    }
+
+    50% {
+        transform: translateY(10px);
+    }
+
+    75% {
+        transform: translateY(-10px);
+    }
+}
+
+.gdecor {
+    display: none;
+}
+
+.lgb2 {
+    width: 100vw;
+    height: 120vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    font-size: 56px;
+}
+
+.lgb2abouttext {
+    width: 1060px;
+    height: 448px;
+
+}
+
+.lgb2abouttexth1 {
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+    text-transform: uppercase;
+    color: transparent;
+    -webkit-text-stroke: 1px #ffffff7b;
+}
+
+.lgb2abouttextlinethrough {
+    font-size: 56px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 100%;
+    text-transform: uppercase;
+    color: #E5E548;
+    text-decoration: line-through 1.6px #E5E548;
+    border: none;
+}
+
+.lgb2aboutreadmore {
+    justify-content: center;
+    align-items: center;
+    border-radius: 88px;
+    border: 1px solid #FFF;
+    background-color: black;
+    width: 110px;
+    height: 40px;
+    color: #FFF;
+    text-align: center;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.192px;
+    text-transform: uppercase;
+
+}
+
+.lgb2aboutreadmore:hover {
+    color: black;
+    background-color: white;
+    cursor: pointer;
+    transition: color 0.3s ease, 0.3s ease;
+}
+
+
+
 }

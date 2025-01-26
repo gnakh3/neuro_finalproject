@@ -1,11 +1,5 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
 div {
-    font-size: 50px;
     font-family: "Poppins", serif;
 }
 
@@ -320,25 +314,29 @@ div {
     text-transform: uppercase;
 }
 
-
-.b5 {
-    width: 100vw;
-    height: 104vh;
-    background-color: burlywood;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 60px;
+    .btn:hover {
+    color: black;
+    background-color: white;
+    cursor: pointer;
+    transition: color 0.3s ease, 0.3s ease; 
 }
 
-.b6 {
-    width: 100vw;
-    height: 91vh;
-    background-color: aqua;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 60px;
+
+@media (max-width:750px) {
+    .title1 {
+        font-size: 56px;
+    }
+    
+    .title2 {
+        font-size: 56px;
+    }
+
+    .pic1 {
+        width: 269px;
+        height: 376px;
+    }
+
+
 }
 
 
