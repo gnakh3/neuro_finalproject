@@ -59,7 +59,7 @@ div {
     justify-content: center;
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: #666;
-    color: white;
+    color: black;
     font-family: Supreme;
     font-size: 64px;
     font-weight: 700;
@@ -81,7 +81,7 @@ div {
     line-height: 160%;
     text-transform: uppercase;
     position: absolute;
-    left: 35%;
+    left: 30%;
 }
 
 .lined {
@@ -92,8 +92,9 @@ div {
 
 .line {
     position: relative;
-    top: 1500%;
-    left: 2%;
+    /* top: 1500%; */
+    left: 15%;
+    width: 100%;
 }
 
 .grid-container {
@@ -123,23 +124,36 @@ div {
     display: flex;
     position: relative;
     align-items: flex-end;
+    width: 550px;
+    height: 408px;
+    overflow: hidden;
 }
 
-.pic1 {
+.box1pic1 {
     width: 100%;
     height: 100%;
     opacity: 0.2;
     background: gray;
     position: relative;
     z-index: 0;
+    transition: opacity 0.4s ease;
 }
+
+.box1pic1:hover {
+    opacity: 1;
+    background: none;
+}
+
 
 .Polygon {
     width: 70px;
     height: 70px;
+    display: flex;
     position: absolute;
     z-index: 2;
+    top: 0;
 }
+
 .hover-line {
     display: flex;
     height: 128px;
@@ -163,13 +177,16 @@ div {
 }
 
 .yellow-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: absolute;
     bottom: 0;
     left: 0;
-    height: 328px;
-    width: 328px;
+    height: 128px;
+    width: 128px;
     opacity: 0;
-    transform: translateY(50%);
+    transform: translateX(0%);
     transition: opacity 1s ease, left 1s ease;
 }
 
@@ -177,15 +194,16 @@ div {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
+    height: 100%;
 }
 
 .arrow {
     opacity: 0;
     pointer-events: none;
     position: relative;
-    bottom: 0;
-    left: 0;
     transition: opacity 1s ease, left 1s ease;
+    transform: translateX(-540%);
 }
 
 .image-box:hover .yellow-line {
@@ -194,19 +212,19 @@ div {
 
 .image-box:hover .yellow-box {
     opacity: 1;
-    left: 80%;
+    transform: translateX(340%);
 }
 
 .image-box:hover .arrow {
     opacity: 1;
-    left: 770%;
+    transform: translateX(340%);
 }
 
-.number-container{
+.number-container {
     position: absolute;
     z-index: 3;
     width: 150px;
-    height: 300px; 
+    height: 300px;
     padding-top: 120px;
     padding-left: 50px;
 }
@@ -222,19 +240,18 @@ div {
     font-weight: 700;
     position: relative;
     -webkit-text-stroke: 1px #ffffff7b;
- 
+
 }
 
 .text {
     display: flex;
-    width: 440px;
     flex-direction: column;
     align-items: flex-start;
     gap: 16px;
+    padding-left: 8%;
 }
 
 .line1 {
-    /* width: 400px; */
     color: var(--NeuYellow, #E5E548);
     font-family: Supreme;
     font-size: 24px;
@@ -281,7 +298,7 @@ div {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10%;
+    padding: 5% 10%;
 }
 
 .btn {
@@ -321,4 +338,83 @@ div {
     justify-content: center;
     align-items: center;
     font-size: 60px;
+}
+
+
+
+@media (max-width:750px) {
+    .title1 {
+        font-size: 56px;
+    }
+
+    .title2 {
+        font-size: 56px;
+    }
+
+    .image-box {
+        width: 269px;
+        height: 376px;
+    }
+
+    .grid-container {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "box1 box2" "box3 box4";
+            padding-top: 48px;
+            
+    }
+
+    .line1 {
+        width: 269px;
+        line-height: 120%;
+        letter-spacing: 2px;
+    }
+
+    .line2 {
+        width: 269px;
+    }
+
+    .slider-container {
+        overflow-x: scroll;
+        scroll-snap-type: x mandatory;
+        display: flex;
+    }
+
+    .grid-container {
+        display: flex;
+        gap: 16px;
+        padding-bottom: 20px;
+    }
+
+    .grid-container>div {
+        flex: 0 0 60%;
+        scroll-snap-align: center;
+    }
+
+    .text {
+        padding-left: 0;
+    }
+
+    .bottom {
+        display: none;
+    }
+
+    .box1pic1 {
+        object-fit: cover;
+    }
+
+    .image-box:hover .yellow-line {
+        width: 60%;
+    }
+    
+    .image-box:hover .yellow-box {
+        opacity: 1;
+        transform: translateX(120%);
+    }
+    
+    .image-box:hover .arrow {
+        opacity: 1;
+        transform: translateX(120%);
+    }
+
 }
