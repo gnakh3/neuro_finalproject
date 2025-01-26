@@ -42,7 +42,7 @@
     font-size: 88px;
     font-weight: 700;
     line-height: 88px;
-
+    text-decoration: line-through 3px solid black;
 }
 
 /* 
