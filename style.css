@@ -457,13 +457,13 @@ html {
     line-height: 102.4px;
     text-align: end;
     color: #E5E548;
-    position: relative;
+    position: absolute;
 }
 
 .lline {
     width: 551px;
     border: 1.6px solid #E5E548;
-    position: absolute;
+    position: relative;
 }
 
 .forline {
@@ -473,15 +473,16 @@ html {
 }
 
 .b5body {
-    width: 88vw;
-    height: 60vh;
+    /* width: 88vw; */
+    /* height: 60vh; */
     gap: 110px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-end;
+    padding-top: 100px;
 }
 
-.b5bodyimage {
+.b5bodyimg1 {
     height: 408px;
     width: 440px;
 }
@@ -489,7 +490,7 @@ html {
 .b5bodytext {
     width: 621px;
     height: 250px;
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -532,6 +533,7 @@ html {
     height: 15vh;
     justify-content: space-between;
     display: flex;
+    padding: 80px 0 116px;
 }
 
 .b5bottombutton {
@@ -590,7 +592,7 @@ html {
 
 .b5-number-container {
     position: absolute;
-    z-index: 3;
+    z-index: 5;
     width: 150px;
     height: 300px;
     padding-top: 120px;
@@ -608,5 +610,52 @@ html {
     font-weight: 700;
     position: relative;
     -webkit-text-stroke: 1px #ffffff7b;
+
+}
+
+@media (max-width:1236px) {
+
+    .b5body {
+        flex-direction: column;
+        align-items: flex-start;
+        align-content: space-between;
+        gap: 40px;
+    }
+
+    .b5bodyimg {
+        width: 366px;
+        height: 216px;
+    }
+
+    .b5bodytextyellow {
+    font-size: 24px;
+}
+
+    .b5bodytextwhite {
+    font-size: 18px;
+}
+
+.b5bodytext {
+    width: 366px;
+    height: 229px;
+    gap: 50px;
+}
+
+.b5-number {
+    font-size: 120px;
+}
+
+.b5-number-container {
+    padding-top: 160px;
+    padding-left: 1px;
+}
+
+.b5headertexth1  {
+    font-size: 56px;
+}
+
+.b5headertexth2  {
+    font-size: 56px;
+}
 
 }
