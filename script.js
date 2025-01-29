@@ -42,7 +42,7 @@ arrow1.addEventListener('click', (event) => {
 })
 
 
-const dateElement = document.querySelector('.home-content-top-nav-coord-info');
+const dateElement = document.querySelector('.home-content-top-nav-coord-infoh1');
 const now = new Date();
 
 const days = ['SUN', 'MON', 'TUE', 'WED', 'THU', 'FRI', 'SAT'];

@@ -34,8 +34,8 @@ html {
     z-index: 1;
     transition: background-color 0.5s ease;
     background-repeat: no-repeat;
-    background-size:  cover;
-    background-position:  center;
+    background-size: cover;
+    background-position: center;
 }
 
 .home-left-info-box {
@@ -46,8 +46,8 @@ html {
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
-    padding-top: 2.01%;
-    padding-projects-bottom-box: 1.9%;
+    padding-top: 1.80%;
+    padding-bottom: 1.9%;
     z-index: 1;
     transition: background-color 0.5s ease-in-out;
 }
@@ -62,6 +62,10 @@ html {
     overflow-x: hidden;
 }
 
+.home-left-info-text-box-hidden {
+    display: none;
+}
+
 .home-left-info-button-menu {
     display: block;
     transition: transform 0.5s ease;
@@ -72,14 +76,14 @@ html {
 #fadeInButtonSVG {
     transition: transform 0.5s ease-in-out;
     transform-origin: center;
-  }
-  
-  #fadeInButtonSVG.rotated {
+}
+
+#fadeInButtonSVG.rotated {
     transform: rotate(360deg);
-  }
-  
-  
-  
+}
+
+
+
 .home-left-info-button-menu-wrapper {
     opacity: 0;
     transform: translateY(-20px);
@@ -99,7 +103,7 @@ html {
     padding-left: 4.5%;
     flex-direction: column;
     justify-content: space-between;
-    padding-projects-bottom-box: 2%;
+    padding-bottom: 2%;
 }
 
 .home-content-top-nav-coord-info {
@@ -107,12 +111,12 @@ html {
     height: 10vh;
     display: flex;
     justify-content: space-between;
-    padding-top: 2%;
+    padding-top: 2.4%;
     padding-right: 10%;
 }
 
 
-.home-content-top-nav-info-text {
+.home-content-top-nav-1info-text {
     width: 86px;
     height: 24px;
     font-size: 24px;
@@ -153,7 +157,7 @@ html {
     color: white;
 }
 
-.home-content-top-nav-coord-info {
+.home-content-top-nav-coord-infoh1 {
     opacity: 60%;
     font-size: 14px;
     font-weight: 500;
@@ -297,6 +301,8 @@ html {
 .home-drop-down-button {
     transition: transform 0.3s ease;
     z-index: 1;
+    animation: bounce 1s ease-in-out infinite;
+
 }
 
 .home-content-h1-button-icon {
@@ -331,7 +337,7 @@ html {
 .home-decor-box {
     width: 885px;
     height: 358px;
-    projects-bottom-box: 0;
+    bottom: 0;
     right: 0;
     position: absolute;
     z-index: 0;
@@ -628,35 +634,35 @@ html {
     }
 
     .b5bodytextyellow {
-    font-size: 24px;
-}
+        font-size: 24px;
+    }
 
     .b5bodytextwhite {
-    font-size: 18px;
-}
+        font-size: 18px;
+    }
 
-.b5bodytext {
-    width: 366px;
-    height: 229px;
-    gap: 50px;
-}
+    .b5bodytext {
+        width: 366px;
+        height: 229px;
+        gap: 50px;
+    }
 
-.b5-number {
-    font-size: 120px;
-}
+    .b5-number {
+        font-size: 120px;
+    }
 
-.b5-number-container {
-    padding-top: 160px;
-    padding-left: 1px;
-}
+    .b5-number-container {
+        padding-top: 160px;
+        padding-left: 1px;
+    }
 
-.b5headertexth1  {
-    font-size: 56px;
-}
+    .b5headertexth1 {
+        font-size: 56px;
+    }
 
-.b5headertexth2  {
-    font-size: 56px;
-}
+    .b5headertexth2 {
+        font-size: 56px;
+    }
 
 }
 
@@ -1086,7 +1092,7 @@ g6cont.css
         width: 100vw;
         height: 1100px;
     }
-    
+
     .g6top {
         height: 600px;
     }
@@ -1109,9 +1115,9 @@ g6cont.css
         justify-content: space-between;
     }
 
-.g6top {
-    height: 650px;
-}
+    .g6top {
+        height: 650px;
+    }
 
     .g6midbox3 {
         width: 50px;
@@ -1126,7 +1132,7 @@ g6cont.css
     .g6top {
         height: 790px;
     }
-    
+
 
 }
 
@@ -1161,6 +1167,7 @@ g6cont.css
     .g6top {
         height: 500px;
     }
+
     .g6toptext1 {
         font-size: 40px;
     }
@@ -1178,7 +1185,7 @@ g6cont.css
     .g6cont {
         height: 1100px;
     }
-    
+
     .g6top {
         height: 500px;
     }
@@ -1187,6 +1194,7 @@ g6cont.css
         margin-top: 20px;
         width: 100vw;
     }
+
     .g6midbox2 {
         margin-top: 60px;
         width: 100vw;
@@ -1194,8 +1202,8 @@ g6cont.css
 }
 
 @media (max-width: 363px) {
-   
-    
+
+
     .g6top {
         height: 440px;
     }
@@ -1220,7 +1228,7 @@ g6cont.css
     .g6cont {
         height: 1100px;
     }
-    
+
     .g6top {
         height: 450px;
     }
@@ -1231,7 +1239,7 @@ g6cont.css
     .g6cont {
         height: 1000px;
     }
-    
+
     .g6top {
         height: 430px;
     }
@@ -1249,7 +1257,7 @@ g6cont.css
     .g6cont {
         height: 1100px;
     }
-    
+
     .g6top {
         height: 450px;
     }
@@ -1261,7 +1269,7 @@ g6cont.css
     .g6linedtext {
         font-size: 32px;
     }
-  
+
     .g6mid1and2box {
         width: 100vw;
     }
@@ -1271,7 +1279,7 @@ g6cont.css
     .g6cont {
         height: 1150px;
     }
-    
+
     .g6top {
         height: 500px;
     }
@@ -1387,7 +1395,7 @@ gpage1.css
 .g1rightendimg {
     position: absolute;
     z-index: 0;
-    projects-bottom-box: 0;
+    bottom: 0;
     right: 0;
 }
 
@@ -1399,7 +1407,7 @@ gpage1.css
     display: flex;
     position: absolute;
     left: 5%;
-    projects-bottom-box: 0;
+    bottom: 0;
     gap: 5%;
 }
 
@@ -1607,7 +1615,6 @@ gpage1.css
         padding-right: 4%;
         z-index: 1;
         transition: background-color 0.5s ease-in-out;
-        transition: background-image 0.5s ease-in-out;
     }
 
     .home-left-info-icon-box {
@@ -1669,6 +1676,7 @@ gpage1.css
         line-height: 24px;
         letter-spacing: -0.4000000059604645px;
         color: white;
+        display: none;
     }
 
     .home-content-top-nav-coord-box {
@@ -1808,7 +1816,7 @@ gpage1.css
         justify-content: start;
         flex-direction: column;
         transform: translateY(-100%);
-        padding-projects-bottom-box: 0;
+        padding-bottom: 0;
         padding-left: 24px;
         top: 50px;
     }
@@ -1872,7 +1880,7 @@ gpage1.css
         line-height: 21.6px;
         letter-spacing: 2px;
         color: white;
-        padding-projects-bottom-box: 15%;
+        padding-bottom: 15%;
     }
 
     .g1bot2text {
@@ -1965,7 +1973,7 @@ gpage1.css
 
     .about-content {
         height: 450px;
-        padding-projects-bottom-box: 25px;
+        padding-bottom: 25px;
     }
 }
 
@@ -2142,11 +2150,11 @@ page4.css
     align-items: flex-start;
     gap: 24px;
     align-self: stretch;
-    border-projects-bottom-box: 1px solid rgba(255, 255, 255, 0.20);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.20);
 }
 
 .b4-border:hover {
-    border-projects-bottom-box: 1px solid var(--NeuYellow, #E5E548);
+    border-bottom: 1px solid var(--NeuYellow, #E5E548);
     cursor: pointer;
 }
 
@@ -2443,7 +2451,7 @@ div {
     height: 128px;
     position: absolute;
     z-index: 2;
-    projects-bottom-box: 0;
+    bottom: 0;
     left: 0;
     width: 100%;
     overflow: hidden;
@@ -2452,7 +2460,7 @@ div {
 
 .yellow-line {
     position: absolute;
-    projects-bottom-box: 0;
+    bottom: 0;
     left: 0;
     height: 128px;
     background-color: #E5E548;
@@ -2465,7 +2473,7 @@ div {
     justify-content: center;
     align-items: center;
     position: absolute;
-    projects-bottom-box: 0;
+    bottom: 0;
     left: 0;
     height: 128px;
     width: 128px;
@@ -2653,7 +2661,7 @@ div {
     .projects-slider-grid-box {
         display: flex;
         gap: 16px;
-        padding-projects-bottom-box: 20px;
+        padding-bottom: 20px;
     }
 
     .projects-slider-grid-box>div {
