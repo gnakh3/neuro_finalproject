@@ -146,7 +146,7 @@ document.querySelector('#forcompany').addEventListener('click', function (e) {
 
 document.querySelector('#forthoughts').addEventListener('click', function (e) {
     e.preventDefault();
-    document.querySelector('.b4').scrollIntoView({
+    document.querySelector('.services').scrollIntoView({
         behavior: 'smooth',
         block: 'start'
     });
@@ -154,7 +154,7 @@ document.querySelector('#forthoughts').addEventListener('click', function (e) {
 
 document.querySelector('#forcontact').addEventListener('click', function (e) {
     e.preventDefault();
-    document.querySelector('.b5').scrollIntoView({
+    document.querySelector('.journal-container-box').scrollIntoView({
         behavior: 'smooth',
         block: 'start'
     });

@@ -423,26 +423,25 @@ html {
     background: #E5E548;
 }
 
-.b5 {
+.journal-container-box {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     max-width: 100vw;
     /* height: 104vh; */
     background-color: #000;
-    font-family: 'Supreme', sans-serif;
     padding-left: 14%;
     padding-right: 14%;
     padding-top: 9%;
 }
 
-.b5headertext {
+.journal-container-header-box {
     width: 551px;
     height: 120px;
     padding-top: 1%;
 }
 
-.b5headertexth1 {
+.journal-container-header-h1 {
     font-size: 64px;
     font-weight: 700;
     line-height: 102.4px;
@@ -451,7 +450,7 @@ html {
     height: auto;
 }
 
-.b5headertexth2 {
+.journal-container-header-h2 {
     font-size: 64px;
     font-weight: 700;
     line-height: 102.4px;
@@ -460,19 +459,19 @@ html {
     position: absolute;
 }
 
-.lline {
+.journal-container-header-h2-line {
     width: 551px;
     border: 1.6px solid #E5E548;
     position: relative;
 }
 
-.forline {
+.journal-container-header-h2-box {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.b5body {
+.journal-container-body-box {
     /* width: 88vw; */
     /* height: 60vh; */
     gap: 110px;
@@ -482,12 +481,12 @@ html {
     padding-top: 100px;
 }
 
-.b5bodyimg1 {
+.journal-container-body-polygon-img {
     height: 408px;
     width: 440px;
 }
 
-.b5bodytext {
+.journal-container-body-content-box {
     width: 621px;
     height: 250px;
     /* margin-projects-bottom-box: 30px; */
@@ -496,7 +495,7 @@ html {
     justify-content: space-between;
 }
 
-.b5bodytextyellow {
+.journal-container-body-content-h1 {
     font-size: 32px;
     font-weight: 500;
     line-height: 38.4px;
@@ -506,7 +505,7 @@ html {
     height: 114px;
 }
 
-.b5bodytextwhite {
+.journal-container-body-content-h2 {
     width: 549px;
     height: 32px;
     font-size: 20px;
@@ -516,7 +515,7 @@ html {
     color: #FFFFFF;
 }
 
-.b5bodytextdate {
+.journal-container-body-content-h3-date {
     width: 120px;
     height: 22px;
     opacity: 40%;
@@ -528,7 +527,7 @@ html {
     color: #FFFFFF;
 }
 
-.b5bottom {
+.journal-container-bot-box {
     width: 93vw;
     height: 15vh;
     justify-content: space-between;
@@ -536,7 +535,7 @@ html {
     padding: 80px 0 116px;
 }
 
-.b5bottombutton {
+.journal-container-bot-button {
     width: 126px;
     height: 48px;
     border-radius: 80px;
@@ -550,7 +549,7 @@ html {
     border: 1px solid white;
 }
 
-.b5bottombutton:hover {
+.journal-container-bot-button:hover {
     color: black;
     background-color: white;
     cursor: pointer;
@@ -559,7 +558,7 @@ html {
 
 
 
-.b5-Polygon {
+.journal-container-box-Polygon {
     width: 70px;
     height: 70px;
     display: flex;
@@ -568,7 +567,7 @@ html {
     top: 0;
 }
 
-.b5bodyimg {
+.journal-container-body-img {
     display: flex;
     position: relative;
     align-items: flex-end;
@@ -577,7 +576,7 @@ html {
 
 }
 
-.b5bodyimg1 {
+.journal-container-body-polygon-img {
     width: 100%;
     height: 100%;
     opacity: 0.2;
@@ -590,7 +589,7 @@ html {
 
 
 
-.b5-number-container {
+.journal-container-box-number-container {
     position: absolute;
     z-index: 5;
     width: 150px;
@@ -599,12 +598,11 @@ html {
     padding-left: 50px;
 }
 
-.b5-number {
+.journal-container-box-number {
     transform: rotate(-90deg);
     text-align: right;
     -webkit-text-stroke-width: 2;
     -webkit-text-stroke-color: var(--NeuWhite, #FFF);
-    font-family: Supreme;
     color: transparent;
     font-size: 168px;
     font-weight: 700;
@@ -615,46 +613,46 @@ html {
 
 @media (max-width:1236px) {
 
-    .b5body {
+    .journal-container-body-box {
         flex-direction: column;
         align-items: flex-start;
         align-content: space-between;
         gap: 40px;
     }
 
-    .b5bodyimg {
+    .journal-container-body-img {
         width: 366px;
         height: 216px;
     }
 
-    .b5bodytextyellow {
+    .journal-container-body-content-h1 {
     font-size: 24px;
 }
 
-    .b5bodytextwhite {
+    .journal-container-body-content-h2 {
     font-size: 18px;
 }
 
-.b5bodytext {
+.journal-container-body-content-box {
     width: 366px;
     height: 229px;
     gap: 50px;
 }
 
-.b5-number {
+.journal-container-box-number {
     font-size: 120px;
 }
 
-.b5-number-container {
+.journal-container-box-number-container {
     padding-top: 160px;
     padding-left: 1px;
 }
 
-.b5headertexth1  {
+.journal-container-header-h1  {
     font-size: 56px;
 }
 
-.b5headertexth2  {
+.journal-container-header-h2  {
     font-size: 56px;
 }
 
@@ -663,10 +661,10 @@ html {
 
 
 /* 
-g6cont.css
+footer-box-container.css
 */
 
-.g6cont {
+.footer-box-container {
     width: 100vw;
     height: 91vh;
     background-color: #E5E548;
@@ -679,7 +677,7 @@ g6cont.css
     overflow: hidden;
 }
 
-.g6top {
+.footer-h1-box-container {
     width: 90vw;
     height: auto;
     display: flex;
@@ -690,12 +688,12 @@ g6cont.css
     align-items: center;
 }
 
-.g6top1 {
+.footer-h1-box {
     width: 1050px;
     height: 264px;
 }
 
-.g6toptext1 {
+.footer-h1-box-h1 {
     color: transparent;
     -webkit-text-stroke: 2px #000000;
     font-size: 88px;
@@ -704,7 +702,7 @@ g6cont.css
     width: 100%;
 }
 
-.g6linedtext {
+.footer-h1-box-h1-lined-h1 {
     color: black;
     width: auto;
     font-size: 88px;
@@ -714,7 +712,7 @@ g6cont.css
 }
 
 /* 
- .g6line {
+ .footer-h1-box-h1-line {
     width: 480px;
     border: 1.6px solid #000000;
     position: absolute; 
@@ -732,7 +730,7 @@ g6cont.css
     position: relative;
 } */
 
-.g6top2 {
+.footer-h1-box-h1-button {
     width: 108px;
     height: 108px;
     border-radius: 100%;
@@ -748,14 +746,14 @@ g6cont.css
     background-color: white;
 }
 
-.g6mid {
+.footer-footer-box {
     width: 90vw;
     height: auto;
     display: flex;
     justify-content: space-between;
 }
 
-.g6mid1 {
+.footer-neuro {
     font-size: 24px;
     font-weight: 800;
     line-height: 24px;
@@ -765,7 +763,7 @@ g6cont.css
     height: 24px;
 }
 
-.g6mid11 {
+.footer-content-neuro {
     font-size: 24px;
     font-weight: 800;
     line-height: 24px;
@@ -776,14 +774,14 @@ g6cont.css
     display: none;
 }
 
-.g6midbox1 {
+.footer-content-address {
     width: 40vw;
     height: auto;
     display: flex;
     justify-content: space-between;
 }
 
-.g6box1header {
+.footer-content-address-h1 {
     font-size: 18px;
     font-weight: 700;
     line-height: 21.6px;
@@ -793,7 +791,7 @@ g6cont.css
     text-align: left;
 }
 
-.g6det1 {
+.footer-content-address-h2 {
     font-size: 14px;
     font-weight: 400;
     line-height: 22.4px;
@@ -802,7 +800,7 @@ g6cont.css
     width: auto;
 }
 
-.g6box2header {
+.footer-content-contact-business {
     width: 98px;
     height: 22px;
     font-size: 18px;
@@ -811,7 +809,7 @@ g6cont.css
     letter-spacing: 2px;
 }
 
-.g6det2 {
+.footer-content-contact-us {
     font-size: 14px;
     font-weight: 400;
     line-height: 22.4px;
@@ -820,21 +818,21 @@ g6cont.css
     width: auto;
 }
 
-.g6text3 {
+.footer-content-menu-button {
     font-size: 14px;
     font-weight: 500;
     line-height: 33.6px;
     letter-spacing: 0.04em;
 }
 
-.g6text4 {
+.footer-content-social-button {
     font-size: 14px;
     font-weight: 400;
     line-height: 33.6px;
     letter-spacing: 1px;
 }
 
-.g6midbox1 {
+.footer-content-address {
     display: flex;
     flex-direction: column;
     width: 220px;
@@ -842,7 +840,7 @@ g6cont.css
     gap: 32px;
 }
 
-.g6midbox2 {
+.footer-content-contact {
     display: flex;
     flex-direction: column;
     width: 197px;
@@ -851,7 +849,7 @@ g6cont.css
 
 }
 
-.g6midbox3 {
+.footer-content-menu {
     display: flex;
     flex-direction: column;
     width: 100px;
@@ -859,7 +857,7 @@ g6cont.css
     text-transform: uppercase;
 }
 
-.g6midbox4 {
+.footer-content-social-box {
     display: flex;
     flex-direction: column;
     width: 197px;
@@ -868,11 +866,11 @@ g6cont.css
 }
 
 
-.g6contmid {
+.footer-content {
     display: flex;
 }
 
-.g6end {
+.footer-content-about-box {
     width: 100vw;
     height: 10vh;
     gap: 15px;
@@ -880,7 +878,7 @@ g6cont.css
     padding-left: 1.8%;
 }
 
-.g6end1 {
+.footer-content-about-company {
     width: 200px;
     height: 24px;
     font-size: 14px;
@@ -889,27 +887,27 @@ g6cont.css
     letter-spacing: 1px;
 }
 
-.g6text3:hover {
+.footer-content-menu-button:hover {
     color: black;
     cursor: pointer;
     font-size: 16px;
     transition: color 0.3s ease, 0.3s ease;
 }
 
-.g6text4:hover {
+.footer-content-social-button:hover {
     color: black;
     cursor: pointer;
     font-size: 16px;
     transition: color 0.3s ease, 0.3s ease;
 }
 
-.g6mid3and4box {
+.footer-content-menu-box {
     display: flex;
     width: 27vw;
     justify-content: space-between;
 }
 
-.g6mid1and2box {
+.footer-content-box {
     display: flex;
     width: 40vw;
     justify-content: space-evenly;
@@ -918,24 +916,24 @@ g6cont.css
 
 @media (max-width: 1500px) {
 
-    .g6top1 {
+    .footer-h1-box {
         width: 850px;
         height: 200px;
     }
 
-    .g6toptext1 {
+    .footer-h1-box-h1 {
         font-size: 70px;
     }
 
-    .g6linedtext {
+    .footer-h1-box-h1-lined-h1 {
         font-size: 70px;
     }
 
-    .g6top {
+    .footer-h1-box-container {
         padding-right: 15%;
     }
 
-    .g6contmid {
+    .footer-content {
         width: 70vw;
     }
 
@@ -944,37 +942,37 @@ g6cont.css
 
 @media (max-width: 1150px) {
 
-    .g6cont {
+    .footer-box-container {
         width: 100vw;
         height: 1300px;
     }
 
-    .g6top {
+    .footer-h1-box-container {
         width: 90vw;
         height: 600px;
         align-items: start;
         flex-direction: column;
     }
 
-    .g6top1 {
+    .footer-h1-box {
         width: 50vw;
     }
 
-    .g6toptext1 {
+    .footer-h1-box-h1 {
         font-size: 70px;
     }
 
-    .g6linedtext {
+    .footer-h1-box-h1-lined-h1 {
         font-size: 70px;
     }
 
-    .g6top2 {
+    .footer-h1-box-h1-button {
         width: 90px;
         height: 90px;
         font-size: 10px;
     }
 
-    .g6mid {
+    .footer-footer-box {
         width: 90vw;
         height: auto;
         display: flex;
@@ -982,48 +980,48 @@ g6cont.css
         height: 600px;
     }
 
-    .g6mid1 {
+    .footer-neuro {
         display: none;
     }
 
-    .g6mid11 {
+    .footer-content-neuro {
         display: flex;
     }
 
-    .g6box1header {
+    .footer-content-address-h1 {
         font-size: 17px;
     }
 
-    .g6det1 {
+    .footer-content-address-h2 {
         font-size: 14px;
     }
 
-    .g6box2header {
+    .footer-content-contact-business {
         font-size: 17px;
     }
 
-    .g6det2 {
+    .footer-content-contact-us {
         font-size: 14px;
     }
 
-    .g6text3 {
+    .footer-content-menu-button {
         font-size: 14px;
     }
 
-    .g6text4 {
+    .footer-content-social-button {
         font-size: 14px;
     }
 
-    .g6midbox1 {
+    .footer-content-address {
         gap: 16px;
     }
 
-    .g6midbox2 {
+    .footer-content-contact {
         gap: 16px;
 
     }
 
-    .g6contmid {
+    .footer-content {
         width: 50vw;
         display: flex;
         justify-content: space-between;
@@ -1031,32 +1029,32 @@ g6cont.css
         height: auto;
     }
 
-    .g6mid3and4box {
+    .footer-content-menu-box {
         display: flex;
         width: 50vw;
         justify-content: space-between;
     }
 
-    .g6mid1and2box {
+    .footer-content-box {
         display: flex;
         flex-direction: column;
         height: 350px;
         justify-content: space-between;
     }
 
-    .g6end {
+    .footer-content-about-box {
         height: 50px;
     }
 
-    .g6end1 {
+    .footer-content-about-company {
         font-size: 12px;
     }
 
-    .g6text3:hover {
+    .footer-content-menu-button:hover {
         font-size: 13px;
     }
 
-    .g6text4:hover {
+    .footer-content-social-button:hover {
         font-size: 13px;
     }
 
@@ -1064,17 +1062,17 @@ g6cont.css
 }
 
 @media (max-width: 1000px) {
-    .g6cont {
+    .footer-box-container {
         width: 100vw;
         height: 1000px;
     }
 
-    .g6toptext1 {
+    .footer-h1-box-h1 {
         font-size: 56px;
         line-height: 70px;
     }
 
-    .g6linedtext {
+    .footer-h1-box-h1-lined-h1 {
         font-size: 56px;
         line-height: 70px;
     }
@@ -1082,12 +1080,12 @@ g6cont.css
 }
 
 @media (max-width: 800px) {
-    .g6cont {
+    .footer-box-container {
         width: 100vw;
         height: 1100px;
     }
     
-    .g6top {
+    .footer-h1-box-container {
         height: 600px;
     }
 }
@@ -1095,35 +1093,35 @@ g6cont.css
 
 @media (max-width: 683px) {
 
-    .g6toptext1 {
+    .footer-h1-box-h1 {
         font-size: 48px;
     }
 
-    .g6linedtext {
+    .footer-h1-box-h1-lined-h1 {
         font-size: 48px;
     }
 
-    .g6mid3and4box {
+    .footer-content-menu-box {
         display: flex;
         width: 100vw;
         justify-content: space-between;
     }
 
-.g6top {
+.footer-h1-box-container {
     height: 650px;
 }
 
-    .g6midbox3 {
+    .footer-content-menu {
         width: 50px;
     }
 
-    .g6midbox4 {
+    .footer-content-social-box {
         width: 50px;
     }
 }
 
 @media (max-width: 585px) {
-    .g6top {
+    .footer-h1-box-container {
         height: 790px;
     }
     
@@ -1132,62 +1130,62 @@ g6cont.css
 
 
 @media (max-width: 450px) {
-    .g6toptext1 {
+    .footer-h1-box-h1 {
         font-size: 48px;
         line-height: 50px;
     }
 
-    .g6linedtext {
+    .footer-h1-box-h1-lined-h1 {
         font-size: 48px;
         line-height: 50px;
     }
 
-    .g6mid3and4box {
+    .footer-content-menu-box {
         display: flex;
         justify-content: space-between;
     }
 
-    .g6top {
+    .footer-h1-box-container {
         height: 500px;
     }
 
-    .g6cont {
+    .footer-box-container {
         width: 100vw;
         height: 1100px;
     }
 }
 
 @media (max-width: 436px) {
-    .g6top {
+    .footer-h1-box-container {
         height: 500px;
     }
-    .g6toptext1 {
+    .footer-h1-box-h1 {
         font-size: 40px;
     }
 
-    .g6linedtext {
+    .footer-h1-box-h1-lined-h1 {
         font-size: 40px;
     }
 }
 
 @media (max-width: 382px) {
-    .g6end1 {
+    .footer-content-about-company {
         font-size: 9px;
     }
 
-    .g6cont {
+    .footer-box-container {
         height: 1100px;
     }
     
-    .g6top {
+    .footer-h1-box-container {
         height: 500px;
     }
 
-    .g6midbox1 {
+    .footer-content-address {
         margin-top: 20px;
         width: 100vw;
     }
-    .g6midbox2 {
+    .footer-content-contact {
         margin-top: 60px;
         width: 100vw;
     }
@@ -1196,87 +1194,87 @@ g6cont.css
 @media (max-width: 363px) {
    
     
-    .g6top {
+    .footer-h1-box-container {
         height: 440px;
     }
 
-    .g6toptext1 {
+    .footer-h1-box-h1 {
         font-size: 36px;
         line-height: 44px;
     }
 
-    .g6linedtext {
+    .footer-h1-box-h1-lined-h1 {
         font-size: 36px;
         line-height: 44px;
     }
 
-    .g6cont {
+    .footer-box-container {
         height: 1000px;
     }
 }
 
 
 @media (max-width: 326px) {
-    .g6cont {
+    .footer-box-container {
         height: 1100px;
     }
     
-    .g6top {
+    .footer-h1-box-container {
         height: 450px;
     }
 
 }
 
 @media (max-width: 307px) {
-    .g6cont {
+    .footer-box-container {
         height: 1000px;
     }
     
-    .g6top {
+    .footer-h1-box-container {
         height: 430px;
     }
 
-    .g6toptext1 {
+    .footer-h1-box-h1 {
         font-size: 32px;
     }
 
-    .g6linedtext {
+    .footer-h1-box-h1-lined-h1 {
         font-size: 32px;
     }
 }
 
 @media (max-width: 291px) {
-    .g6cont {
+    .footer-box-container {
         height: 1100px;
     }
     
-    .g6top {
+    .footer-h1-box-container {
         height: 450px;
     }
 
-    .g6toptext1 {
+    .footer-h1-box-h1 {
         font-size: 32px;
     }
 
-    .g6linedtext {
+    .footer-h1-box-h1-lined-h1 {
         font-size: 32px;
     }
   
-    .g6mid1and2box {
+    .footer-content-box {
         width: 100vw;
     }
 }
 
 @media (max-width: 272px) {
-    .g6cont {
+    .footer-box-container {
         height: 1150px;
     }
     
-    .g6top {
+    .footer-h1-box-container {
         height: 500px;
     }
 
-    .g6mid1and2box {
+    .footer-content-box {
         width: 100vw;
     }
 }
@@ -1292,12 +1290,11 @@ gpage1.css
     box-sizing: border-box;
 }
 
-.g1mainbox {
+.burger-menu-container {
     background-color: #000000;
     height: 90vh;
     width: 95.3vw;
     display: flex;
-    font-family: 'Supreme', sans-serif;
     padding-left: 3%;
     align-items: end;
     position: absolute;
@@ -1313,14 +1310,14 @@ gpage1.css
     overflow-y: hidden;
 }
 
-.g1mid {
+.bm-box {
     display: flex;
     width: 70vw;
     justify-content: space-between;
     padding-projects-bottom-box: 5%;
 }
 
-.g1mid1 {
+.bm-footer-content {
     width: 100%;
     height: 102px;
     font-size: 64px;
@@ -1334,14 +1331,14 @@ gpage1.css
     align-items: center;
 }
 
-.g1mid1:hover {
+.bm-footer-content:hover {
     color: #E5E548;
     text-decoration: line-through 4px;
     text-decoration-color: #E5E548;
     transition: color 0.3s ease, 0.3s ease;
 }
 
-.g1midright {
+.bm-social-box {
     width: 290px;
     height: 390px;
     display: flex;
@@ -1349,7 +1346,7 @@ gpage1.css
     justify-content: center;
 }
 
-.g1top2text {
+.bm-social-content-updates {
     font-size: 14px;
     line-height: 33.6px;
     letter-spacing: 1px;
@@ -1357,19 +1354,19 @@ gpage1.css
     padding-top: 1%;
 }
 
-.g1top2text:hover {
+.bm-social-content-updates:hover {
     cursor: pointer;
     color: #E5E548;
     transition: color 0.3s ease, 0.3s ease;
 }
 
-.g1midrightbottom {
+.bm-contact-box {
     width: 250px;
     height: 120px;
     padding-top: 27%;
 }
 
-.g1midbot1 {
+.bm-social-info {
     font-size: 18px;
     font-weight: 700;
     line-height: 21.6px;
@@ -1378,7 +1375,7 @@ gpage1.css
     padding-projects-bottom-box: 15%;
 }
 
-.g1bot2text {
+.bm-contact-address {
     font-size: 14px;
     font-weight: 400;
     line-height: 22.4px;
@@ -1386,7 +1383,7 @@ gpage1.css
     color: white;
 }
 
-.g1rightendimg {
+.bm-tend-img {
     position: absolute;
     z-index: 0;
     projects-bottom-box: 0;
@@ -1394,7 +1391,7 @@ gpage1.css
 }
 
 
-.g1footer {
+.bm-company-box {
     width: 15vw;
     height: 7vh;
     background-color: transparent;
@@ -1405,7 +1402,7 @@ gpage1.css
     gap: 5%;
 }
 
-.g1footertext1 {
+.bm-company-name {
     width: 110px;
     height: 24px;
     font-size: 12px;
@@ -1429,7 +1426,7 @@ gpage1.css
         z-index: 1;
     }
 
-    .g1footer {
+    .bm-company-box {
         width: 25vw;
     }
 
@@ -1506,17 +1503,17 @@ gpage1.css
     }
 
 
-    .g1mainbox {
+    .burger-menu-container {
         padding-left: 2%;
     }
 
 
 
-    .g1mid1 {
+    .bm-footer-content {
         font-size: 40px;
     }
 
-    .g1midright {
+    .bm-social-box {
         width: 270px;
         height: 390px;
         display: flex;
@@ -1525,7 +1522,7 @@ gpage1.css
         padding-left: 8vw;
     }
 
-    .g1top2text {
+    .bm-social-content-updates {
         font-size: 12px;
         line-height: 33.6px;
         letter-spacing: 1px;
@@ -1533,25 +1530,25 @@ gpage1.css
         padding-top: 1%;
     }
 
-    .g1midrightbottom {
+    .bm-contact-box {
         width: 197px;
         height: 120px;
         padding-top: 27%;
     }
 
-    .g1midbot1 {
+    .bm-social-info {
         font-size: 16px;
     }
 
-    .g1bot2text {
+    .bm-contact-address {
         font-size: 12px;
     }
 
-    .g1rightendimg {
+    .bm-tend-img {
         display: none;
     }
 
-    .g1footertext1 {
+    .bm-company-name {
         font-size: 10px;
     }
 
@@ -1802,7 +1799,7 @@ gpage1.css
         font-size: 56px;
     }
 
-    .g1mainbox {
+    .burger-menu-container {
         background-color: #000000;
         height: 800px;
         width: 100vw;
@@ -1815,24 +1812,24 @@ gpage1.css
         top: 50px;
     }
 
-    .g1mid {
+    .bm-box {
         flex-direction: column;
         width: 100%;
         justify-content: space-between;
         height: 800px;
     }
 
-    .g1mid1 {
+    .bm-footer-content {
         font-size: 56px;
         line-height: 56px;
     }
 
-    .g1midleft {
+    .bm-footer {
         height: 376px;
     }
 
 
-    .g1midright {
+    .bm-social-box {
         width: 100vw;
         height: 246px;
         display: flex;
@@ -1841,7 +1838,7 @@ gpage1.css
         position: relative;
     }
 
-    .g1top2text {
+    .bm-social-content-updates {
         font-size: 14px;
         line-height: 33.6px;
         letter-spacing: 1px;
@@ -1849,26 +1846,26 @@ gpage1.css
         padding-top: 1%;
     }
 
-    .g1top2text:hover {
+    .bm-social-content-updates:hover {
         cursor: pointer;
         color: #E5E548;
         transition: color 0.3s ease, 0.3s ease;
     }
 
-    .g1midrightop {
+    .bm-social {
         width: Hug (71px)px;
         height: Hug (190px)px;
         gap: 32px;
 
     }
 
-    .g1midrightbottom {
+    .bm-contact-box {
         width: 197px;
         height: 120px;
         padding-top: 0;
     }
 
-    .g1midbot1 {
+    .bm-social-info {
         font-size: 18px;
         font-weight: 700;
         line-height: 21.6px;
@@ -1877,7 +1874,7 @@ gpage1.css
         padding-projects-bottom-box: 15%;
     }
 
-    .g1bot2text {
+    .bm-contact-address {
         font-size: 14px;
         font-weight: 400;
         line-height: 22.4px;
@@ -1886,7 +1883,7 @@ gpage1.css
     }
 
 
-    .g1footer {
+    .bm-company-box {
         display: none;
     }
 
@@ -1905,17 +1902,17 @@ gpage1.css
         font-size: 48px;
     }
 
-    .g1midbot1 {
+    .bm-social-info {
         font-size: 16px;
         width: 100px;
     }
 
-    .g1bot2text {
+    .bm-contact-address {
         font-size: 12px;
         width: 100px;
     }
 
-    .g1mid1 {
+    .bm-footer-content {
         font-size: 48px;
         line-height: 48px;
     }
@@ -1943,7 +1940,7 @@ gpage1.css
         font-size: 40px;
     }
 
-    .g1mid1 {
+    .bm-footer-content {
         font-size: 40px;
         line-height: 20px;
     }
@@ -1985,7 +1982,7 @@ gpage1.css
         font-size: 35px;
     }
 
-    .g1mid1 {
+    .bm-footer-content {
         font-size: 35px;
     }
 
@@ -2014,7 +2011,7 @@ gpage1.css
 page4.css
 */
 
-.b4 {
+.services {
     width: 100vw;
     background-color: black;
     display: flex;
@@ -2022,7 +2019,7 @@ page4.css
     justify-content: space-between;
 }
 
-.b4-projects-h1 {
+.services-projects-h1 {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -2032,7 +2029,7 @@ page4.css
     gap: 28px;
 }
 
-.b4-projects-h1-l1 {
+.services-projects-h1-l1 {
     display: flex;
     width: 227px;
     height: 56px;
@@ -2040,14 +2037,13 @@ page4.css
     justify-content: center;
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: #666;
-    font-family: Supreme;
     font-size: 64px;
     font-weight: 700;
     line-height: 160%;
     text-transform: uppercase;
 }
 
-.b4-projects-h1-line-h1 {
+.services-projects-h1-line-h1 {
     display: flex;
     width: 334px;
     height: 56px;
@@ -2056,7 +2052,6 @@ page4.css
     flex-shrink: 0;
     color: var(--NeuYellow, #E5E548);
     text-align: center;
-    font-family: Supreme;
     font-size: 64px;
     font-weight: 700;
     line-height: 70%;
@@ -2065,18 +2060,18 @@ page4.css
     left: 29%;
 }
 
-.b4-projects-h1-line-box {
+.services-projects-h1-line-box {
     display: flex;
     position: relative;
     align-items: center;
 }
 
-.b4-line {
+.services-line {
     position: relative;
     left: 2%;
 }
 
-.b4-full {
+.services-full {
     display: flex;
     justify-content: center;
     gap: 150px;
@@ -2084,7 +2079,7 @@ page4.css
 }
 
 
-.b4-left {
+.services-left {
     display: flex;
     width: 770px;
     flex-direction: column;
@@ -2093,39 +2088,37 @@ page4.css
     gap: 40px;
 }
 
-.b4-left-text {
+.services-left-text {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 24px;
 }
 
-.b4-box {
+.services-box {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 
-.b4-number {
+.services-number {
     display: flex;
     width: 24px;
     height: 30px;
     flex-direction: column;
     justify-content: center;
     color: var(--NeuWhite, #FFF);
-    font-family: Supreme;
     font-size: 14px;
     line-height: 160%;
     letter-spacing: 1px;
     opacity: 0.4;
 }
 
-.b4-name {
+.services-name {
     width: 549px;
     height: 64px;
     color: var(--NeuWhite, #FFF);
-    font-family: Supreme;
     font-size: 32px;
     font-weight: 500;
     line-height: 120%;
@@ -2133,12 +2126,12 @@ page4.css
     text-transform: uppercase;
 }
 
-.b4-name:hover {
+.services-name:hover {
     color: var(--NeuYellow, #E5E548);
     cursor: pointer;
 }
 
-.b4-border {
+.services-border {
     display: flex;
     height: 72px;
     align-items: flex-start;
@@ -2147,13 +2140,13 @@ page4.css
     border-projects-bottom-box: 1px solid rgba(255, 255, 255, 0.20);
 }
 
-.b4-border:hover {
+.services-border:hover {
     border-projects-bottom-box: 1px solid var(--NeuYellow, #E5E548);
     cursor: pointer;
 }
 
 
-.b4-right {
+.services-right {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -2162,19 +2155,19 @@ page4.css
     height: 392px;
 }
 
-.b4-polygon-box {
+.services-polygon-box {
     position: absolute;
     top: 0;
     left: 0;
     z-index: 2;
 }
 
-.b4-polygon {
+.services-polygon {
     width: 70px;
     height: 70px;
 }
 
-.b4-right-pic {
+.services-right-pic {
     position: relative;
     width: 290px;
     height: 392px;
@@ -2183,13 +2176,13 @@ page4.css
     align-items: center;
 }
 
-.b4-pic {
+.services-pic {
     width: 290px;
     height: 392px;
     z-index: 1;
 }
 
-.b4-yellow-circle {
+.services-yellow-circle {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -2205,11 +2198,10 @@ page4.css
     height: 108px;
 }
 
-.b4-yellow-circle-text {
+.services-yellow-circle-text {
     position: absolute;
     color: #000;
     text-align: center;
-    font-family: Supreme, sans-serif;
     font-size: 12px;
     font-weight: 700;
     letter-spacing: 0.192px;
@@ -2218,16 +2210,16 @@ page4.css
 }
 
 @media (max-width:1236px) {
-    .b4-projects-h1-l1 {
+    .services-projects-h1-l1 {
         font-size: 56px;
     }
 
-    .b4-projects-h1-line-h1 {
+    .services-projects-h1-line-h1 {
         font-size: 56px;
         left: 20%;
     }
 
-    .b4-line {
+    .services-line {
         width: 590px;
     }
 
@@ -2235,18 +2227,18 @@ page4.css
 }
 
 @media (max-width:1236px) {
-    .b4-right {
+    .services-right {
         display: none;
     }
 }
 
 
 @media (max-width:932px) {
-    .b4-left {
+    .services-left {
         align-items: center;
     }
 
-    .b4-projects-h1 {
+    .services-projects-h1 {
         padding: 15% 8% 8% 8%;
 
     }
@@ -2254,29 +2246,29 @@ page4.css
 
 @media (max-width:385px) {
 
-    .b4-projects-h1 {
+    .services-projects-h1 {
         padding: 18% 8% 15% 8%;
         gap: 15px;
     }
 
-    .b4-projects-h1-l1 {
+    .services-projects-h1-l1 {
         font-size: 36px;
     }
 
-    .b4-projects-h1-line-h1 {
+    .services-projects-h1-line-h1 {
         font-size: 36px;
         left: 2%;
     }
 
-    .b4-line {
+    .services-line {
         width: 590px;
     }
 
-    .b4-right {
+    .services-right {
         display: none;
     }
 
-    .b4-name {
+    .services-name {
         font-size: 28px;
         font-weight: 400;
         line-height: 100%;
@@ -2289,11 +2281,6 @@ page4.css
 /* 
 projects-box-style.css
 */
-
-
-div {
-    font-family: "Poppins", serif;
-}
 
 .b1 {
     width: 100vw;
@@ -2346,7 +2333,6 @@ div {
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: #666;
     color: black;
-    font-family: Supreme;
     font-size: 64px;
     font-weight: 700;
     line-height: 160%;
@@ -2361,7 +2347,6 @@ div {
     justify-content: center;
     color: var(--NeuYellow, #E5E548);
     text-align: center;
-    font-family: Supreme;
     font-size: 64px;
     font-weight: 700;
     line-height: 160%;
@@ -2520,7 +2505,6 @@ div {
     text-align: right;
     -webkit-text-stroke-width: 2;
     -webkit-text-stroke-color: var(--NeuWhite, #FFF);
-    font-family: Supreme;
     color: transparent;
     font-size: 168px;
     font-weight: 700;
@@ -2539,7 +2523,6 @@ div {
 
 .line1 {
     color: var(--NeuYellow, #E5E548);
-    font-family: Supreme;
     font-size: 24px;
     font-weight: 500;
     line-height: 160%;
@@ -2549,7 +2532,6 @@ div {
 
 .line2 {
     color: var(--White, #FFF);
-    font-family: Supreme;
     font-size: 18px;
     font-weight: 300;
     line-height: 160%;
@@ -2558,7 +2540,6 @@ div {
 
 .line3 {
     color: var(--White, #FFF);
-    font-family: Supreme;
     font-size: 14px;
     line-height: 160%;
     letter-spacing: 1px;
@@ -2567,7 +2548,6 @@ div {
 
 .line4 {
     color: var(--White, #FFF);
-    font-family: Supreme;
     font-size: 14px;
     line-height: 160%;
     letter-spacing: 1px;
@@ -2598,7 +2578,6 @@ div {
     background-color: black;
     color: #FFF;
     text-align: center;
-    font-family: Supreme;
     font-size: 12px;
     font-weight: 700;
     letter-spacing: 0.192px;
