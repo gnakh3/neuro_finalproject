@@ -1296,12 +1296,11 @@ gpage1.css
     background-color: #000000;
     height: 90vh;
     width: 95.3vw;
-    display: flex;
+    display: none;
     font-family: 'Supreme', sans-serif;
     padding-left: 3%;
     align-items: end;
     position: absolute;
-    projects-bottom-box: 0;
     right: 0;
     justify-content: center;
     align-items: center;
@@ -1317,7 +1316,6 @@ gpage1.css
     display: flex;
     width: 70vw;
     justify-content: space-between;
-    padding-projects-bottom-box: 5%;
 }
 
 .g1mid1 {
@@ -1375,7 +1373,7 @@ gpage1.css
     line-height: 21.6px;
     letter-spacing: 2px;
     color: white;
-    padding-projects-bottom-box: 15%;
+    padding-bottom: 15%;
 }
 
 .g1bot2text {
@@ -1655,7 +1653,7 @@ gpage1.css
         padding-left: 4.5%;
         flex-direction: column;
         justify-content: space-between;
-        padding-projects-bottom-box: 2%;
+        padding-bottom: 2%;
     }
 
     .home-content-top-nav-coord-info {
@@ -1737,7 +1735,7 @@ gpage1.css
         font-weight: 300;
         line-height: 28.8px;
         color: #FFFFFF;
-        margin-projects-bottom-box: 50px;
+        margin-bottom: 50px;
         padding-top: 16px;
     }
 
@@ -1754,7 +1752,7 @@ gpage1.css
         justify-content: space-between;
         align-items: center;
         width: 90%;
-        padding-projects-bottom-box: 100px;
+        padding-bottom: 100px;
         position: relative;
     }
 

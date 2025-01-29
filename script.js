@@ -60,14 +60,14 @@ document.getElementById('fadeInButtonSVG').addEventListener('click', function ()
     const hiddenPage = document.getElementById('hiddenPage');
     const sideBar = document.querySelector('.home-left-info-box');
     const mainBox = document.querySelector('.home-box');
-    const home-top - nav - action - box = document.querySelector('.home-top-nav-action-box')
+    const homebox = document.querySelector('.home-top-nav-action-box')
 
     if (!isPageVisible) {
         hiddenPage.style.transition = 'transform 1s ease, opacity 1s ease';
         hiddenPage.style.opacity = 1;
         hiddenPage.style.transform = 'translateX(0)';
 
-        home - top - nav - action - box.style.backgroundColor = 'black';
+        homebox.style.backgroundColor  = 'black';
         sideBar.style.backgroundColor = 'black';
         mainBox.style.zIndex = '0';
 
@@ -77,7 +77,7 @@ document.getElementById('fadeInButtonSVG').addEventListener('click', function ()
         hiddenPage.style.transform = 'translateX(-100%)';
 
         setTimeout(() => {
-            home - top - nav - action - box.style.backgroundColor = '';
+            box.style.backgroundColor = '';
             sideBar.style.backgroundColor = '';
             mainBox.style.zIndex = '';
         }, 500);
@@ -90,7 +90,7 @@ document.getElementById('fadeInButtonSVGy').addEventListener('click', function (
     console.log('clicked');
     const hiddenPage = document.getElementById('hiddenPage');
     const mainBox = document.querySelector('.home-box');
-    const home-top - nav - action - box = document.querySelector('.home-top-nav-action-box')
+    const hometop = document.querySelector('.home-top-nav-action-box')
     const sideBar = document.querySelector('.home-left-info-box');
 
     if (!isPageVisible) {
@@ -98,7 +98,7 @@ document.getElementById('fadeInButtonSVGy').addEventListener('click', function (
         hiddenPage.style.opacity = 1;
         hiddenPage.style.transform = 'translateY(0)';
 
-        home - top - nav - action - box.style.backgroundColor = 'black';
+        homebox.style.backgroundColor = 'black';
         sideBar.style.backgroundColor = 'black';
         sideBar.style.backgroundImage = 'none';
         mainBox.style.zIndex = '0';
@@ -109,7 +109,7 @@ document.getElementById('fadeInButtonSVGy').addEventListener('click', function (
         hiddenPage.style.transform = 'translateY(-100%)';
 
         setTimeout(() => {
-            home - top - nav - action - box.style.backgroundColor = '';
+            homebox.style.backgroundColor = '';
             sideBar.style.backgroundColor = '';
             mainBox.style.zIndex = '';
             sideBar.style.backgroundImage = '';
