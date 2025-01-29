@@ -1,6 +1,6 @@
-const arrow = document.querySelector('.gendarrows');
-const arrow1 = document.querySelector('.gendarrow');
-const nextPage = document.querySelector('.lgb2');
+const arrow = document.querySelector('.home-content-h1-button-icon-box');
+const arrow1 = document.querySelector('.home-drop-down-button');
+const nextPage = document.querySelector('.about-box');
 const html = document.documentElement;
 const body = document.body;
 
@@ -42,7 +42,7 @@ arrow1.addEventListener('click', (event) => {
 })
 
 
-const dateElement = document.querySelector('.gtop3');
+const dateElement = document.querySelector('.home-content-top-nav-coord-info');
 const now = new Date();
 
 const days = ['SUN', 'MON', 'TUE', 'WED', 'THU', 'FRI', 'SAT'];
@@ -58,16 +58,16 @@ let isPageVisible = false;
 document.getElementById('fadeInButtonSVG').addEventListener('click', function () {
     console.log('clicked');
     const hiddenPage = document.getElementById('hiddenPage');
-    const sideBar = document.querySelector('.gleftside');
-    const mainBox = document.querySelector('.gbox1');
-    const forTransition = document.querySelector('.fortransition')
+    const sideBar = document.querySelector('.home-left-info-box');
+    const mainBox = document.querySelector('.home-box');
+    const home-top - nav - action - box = document.querySelector('.home-top-nav-action-box')
 
     if (!isPageVisible) {
         hiddenPage.style.transition = 'transform 1s ease, opacity 1s ease';
         hiddenPage.style.opacity = 1;
         hiddenPage.style.transform = 'translateX(0)';
 
-        forTransition.style.backgroundColor = 'black';
+        home - top - nav - action - box.style.backgroundColor = 'black';
         sideBar.style.backgroundColor = 'black';
         mainBox.style.zIndex = '0';
 
@@ -77,7 +77,7 @@ document.getElementById('fadeInButtonSVG').addEventListener('click', function ()
         hiddenPage.style.transform = 'translateX(-100%)';
 
         setTimeout(() => {
-            forTransition.style.backgroundColor = '';
+            home - top - nav - action - box.style.backgroundColor = '';
             sideBar.style.backgroundColor = '';
             mainBox.style.zIndex = '';
         }, 500);
@@ -89,16 +89,16 @@ document.getElementById('fadeInButtonSVG').addEventListener('click', function ()
 document.getElementById('fadeInButtonSVGy').addEventListener('click', function () {
     console.log('clicked');
     const hiddenPage = document.getElementById('hiddenPage');
-    const mainBox = document.querySelector('.gbox1');
-    const forTransition = document.querySelector('.fortransition')
-    const sideBar = document.querySelector('.gleftside');
+    const mainBox = document.querySelector('.home-box');
+    const home-top - nav - action - box = document.querySelector('.home-top-nav-action-box')
+    const sideBar = document.querySelector('.home-left-info-box');
 
     if (!isPageVisible) {
         hiddenPage.style.transition = 'transform 1s ease, opacity 1s ease';
         hiddenPage.style.opacity = 1;
         hiddenPage.style.transform = 'translateY(0)';
 
-        forTransition.style.backgroundColor = 'black';
+        home - top - nav - action - box.style.backgroundColor = 'black';
         sideBar.style.backgroundColor = 'black';
         sideBar.style.backgroundImage = 'none';
         mainBox.style.zIndex = '0';
@@ -109,7 +109,7 @@ document.getElementById('fadeInButtonSVGy').addEventListener('click', function (
         hiddenPage.style.transform = 'translateY(-100%)';
 
         setTimeout(() => {
-            forTransition.style.backgroundColor = '';
+            home - top - nav - action - box.style.backgroundColor = '';
             sideBar.style.backgroundColor = '';
             mainBox.style.zIndex = '';
             sideBar.style.backgroundImage = '';
@@ -122,7 +122,7 @@ document.getElementById('fadeInButtonSVGy').addEventListener('click', function (
 
 document.querySelector('#forhome').addEventListener('click', function (e) {
     e.preventDefault();
-    document.querySelector('.gbox1').scrollIntoView({
+    document.querySelector('.home-box').scrollIntoView({
         behavior: 'smooth',
         block: 'start'
     });
@@ -130,7 +130,7 @@ document.querySelector('#forhome').addEventListener('click', function (e) {
 
 document.querySelector('#forworks').addEventListener('click', function (e) {
     e.preventDefault();
-    document.querySelector('.lgb2').scrollIntoView({
+    document.querySelector('.about-box').scrollIntoView({
         behavior: 'smooth',
         block: 'start'
     });
@@ -138,7 +138,7 @@ document.querySelector('#forworks').addEventListener('click', function (e) {
 
 document.querySelector('#forcompany').addEventListener('click', function (e) {
     e.preventDefault();
-    document.querySelector('.b3').scrollIntoView({
+    document.querySelector('.projects-box').scrollIntoView({
         behavior: 'smooth',
         block: 'start'
     });
@@ -163,7 +163,7 @@ document.querySelector('#forcontact').addEventListener('click', function (e) {
 const transitionButton = document.querySelector('#fadeInButtonSVG');
 
 transitionButton.addEventListener('click', () => {
-  transitionButton.classList.toggle('rotated');
+    transitionButton.classList.toggle('rotated');
 });
 
 
