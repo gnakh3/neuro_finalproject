@@ -23,13 +23,13 @@ arrow.addEventListener('click', (event) => {
              }, 800);
          });
 
-       window.addEventListener('scroll', () => {
-             const scrollTop = window.scrollY;
+       // window.addEventListener('scroll', () => {
+       //       const scrollTop = window.scrollY;
 
-             if (scrollTop === 0) {
-                 html.style.overflow = 'hidden';
-                 body.style.overflow = 'hidden';
-             }
+       //       if (scrollTop === 0) {
+       //           html.style.overflow = 'hidden';
+       //           body.style.overflow = 'hidden';
+       //       }
     })
 });
 
