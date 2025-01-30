@@ -32,6 +32,21 @@
     padding-bottom: 5%;
 }
 
+.g1midleft {
+    width: 30vw;
+}
+
+.overlayline {
+    position: absolute;
+    top: 50%;
+    left: -10%;
+    width: 100%;
+    border: 2px solid #E5E548;
+    z-index: 10; 
+    opacity: 0; 
+    transition: opacity 0.3s ease-in-out;
+}
+
 .g1mid1 {
     width: 100%;
     height: 102px;
@@ -44,13 +59,16 @@
     display: flex;
     justify-content: start;
     align-items: center;
+    position: relative;
 }
 
+.g1mid1:hover .overlayline {
+    opacity: 1; 
+}
 .g1mid1:hover {
     color: #E5E548;
-    text-decoration: line-through 4px;
-    text-decoration-color: #E5E548;
-    transition: color 0.3s ease, 0.3s ease;
+    cursor: pointer;
+    font-size: 4.2rem;
 }
 
 .g1midright {
@@ -321,8 +339,18 @@
         padding-right: 4%;
         z-index: 1;
         transition: background-color 0.5s ease-in-out;
-        transition: background-image 0.5s ease-in-out;
     }
+
+   .gnightmodey {
+    display: flex;
+   }
+
+.forrespttop {
+    display: flex;
+    align-items: center;
+    width: 100px;
+    justify-content: space-between;
+}
 
     .gleft1 {
         display: none;
@@ -349,16 +377,6 @@
         transition: transform 0.5s ease;
         z-index: 10;
     }
-
-
-    .fade-in-element {
-        transform: translateY(-20px);
-    }
-
-    .fade-in-element.visible {
-        transform: translateY(0);
-    }
-
 
     .grightside {
         display: flex;
@@ -453,13 +471,43 @@
         padding-top: 16px;
     }
 
-    .gendarrowr {
-        display: flex;
-    }
-
+    
     .gendarrow {
         display: none;
     }
+
+    .gendarrowr {
+        transition: transform 0.3s ease;
+        z-index: 1;
+        animation: bounce 1s ease-in-out infinite;
+        display: flex;
+    }
+    
+    .gendarrowr:hover {
+        cursor: pointer;
+    }
+    
+    @keyframes bounce {
+    
+        0%,
+        100% {
+            transform: translateY(0);
+        }
+    
+        25% {
+            transform: translateY(-20px);
+        }
+    
+        50% {
+            transform: translateY(10px);
+        }
+    
+        75% {
+            transform: translateY(-10px);
+        }
+    }
+
+
 
     .forpage1resp {
         display: flex;
@@ -532,6 +580,7 @@
         width: 100%;
         justify-content: space-between;
         height: 800px;
+        padding-top: 14%;
     }
 
     .g1mid1 {
@@ -540,7 +589,7 @@
     }
 
     .g1midleft {
-        height: 376px;
+        height: 376px;  
     }
 
 
@@ -551,6 +600,7 @@
         justify-content: space-between;
         flex-direction: row;
         position: relative;
+        padding-top: 15%;
     }
 
     .g1top2text {
