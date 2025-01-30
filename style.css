@@ -488,14 +488,33 @@ html {
 }
 
 .b5body {
-    /* width: 88vw; */
-    /* height: 60vh; */
     gap: 110px;
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
     padding-top: 100px;
 }
+
+#addedPage {
+    gap: 110px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-top: 100px;
+    opacity: 0;         
+    visibility: hidden;  
+    height: 0;        
+    overflow: hidden;    
+    transition: opacity 0.5s ease, visibility 0s 0.5s, height 0.5s ease;
+}
+
+#addedPage.show {
+    opacity: 1;
+    visibility: visible;  
+    height: auto;           
+    transition: opacity 0.5s ease, visibility 0s 0s, height 0.5s ease;
+}
+
 
 .b5bodyimg1 {
     height: 408px;
@@ -505,7 +524,6 @@ html {
 .b5bodytext {
     width: 621px;
     height: 250px;
-    /* margin-bottom: 30px; */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -632,22 +650,34 @@ html {
 
     .b5body {
         flex-direction: column;
-        align-items: flex-start;
+        align-items: center;
         align-content: space-between;
         gap: 40px;
+        text-transform: uppercase;
     }
 
+    #addedPage {
+        gap: 40px;
+        justify-content: space-between;
+        align-items: center;
+        text-transform: uppercase;
+        flex-direction: column;
+    }
+    
+
     .b5bodyimg {
-        width: 366px;
-        height: 216px;
+        width: 450px;
+        height: 306px;
     }
 
     .b5bodytextyellow {
     font-size: 24px;
+    width: 100%;
 }
 
     .b5bodytextwhite {
     font-size: 18px;
+    width: 100%;
 }
 
 .b5bodytext {
@@ -672,5 +702,40 @@ html {
 .b5headertexth2  {
     font-size: 56px;
 }
+}
 
+
+@media (max-width: 443px) {
+
+    .b5body {
+       height: 600px;
+    }
+
+    .b5bodytextyellow {
+        font-size: 20px;
+    }
+    
+        .b5bodytextwhite {
+        font-size: 15px;
+    }
+
+    .b5bottompaginations {
+        display: none;
+    }
+
+    .b5bottombutton {
+        width: 80vw;
+    }
+}
+
+@media (max-width: 390px) {
+    
+
+    .b5bodytextyellow {
+        font-size: 18px;
+    }
+    
+        .b5bodytextwhite {
+        font-size: 15px;
+    }
 }

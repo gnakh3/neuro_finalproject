@@ -169,3 +169,14 @@ document.getElementById("fadeInButtonSVGy").addEventListener("click", function (
 });
 
 
+document.getElementById('showMoreButton').addEventListener('click', function(event) {
+    event.preventDefault();
+
+    const addedPage = document.getElementById('addedPage');
+
+    if (addedPage.classList.contains('show')) {
+        addedPage.classList.remove('show');
+    } else {
+        addedPage.classList.add('show');
+    }
+});
