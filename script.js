@@ -160,10 +160,10 @@ document.querySelector('#forcontact').addEventListener('click', function (e) {
     });
 });
 
-const transitionButton = document.querySelector('#fadeInButtonSVG');
-
-transitionButton.addEventListener('click', () => {
-  transitionButton.classList.toggle('rotated');
+document.getElementById("fadeInButtonSVG").addEventListener("click", function () {
+    this.classList.toggle("rotated"); 
 });
 
-
+document.getElementById("fadeInButtonSVGy").addEventListener("click", function () {
+    this.classList.toggle("rotated"); 
+});
