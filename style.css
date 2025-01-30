@@ -6,7 +6,7 @@
 }
 
  
-body {
+/* body {
     overflow-x: hidden;
     height: auto;
 }
@@ -14,7 +14,7 @@ body {
 html {
     overflow-y: hidden;
     height: auto;
-}  
+}   */
 
 .main {
     display: flex;
