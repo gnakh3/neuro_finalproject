@@ -5,16 +5,16 @@
     max-width: 100%;
 }
 
-/* 
+ 
 body {
     overflow-x: hidden;
-    height: 697vh;
+    height: auto;
 }
 
 html {
     overflow-y: hidden;
-    height: 697vh;
-}  */
+    height: auto;
+}  
 
 .main {
     display: flex;
