@@ -30,7 +30,7 @@ arrow.addEventListener('click', (event) => {
        //           html.style.overflow = 'hidden';
        //           body.style.overflow = 'hidden';
        //       }
-    })
+    // })
 });
 
 arrow1.addEventListener('click', (event) => {
