@@ -46,7 +46,7 @@ html {
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
-    padding-top: 1.8%;
+    padding-top: 2.01%;
     padding-bottom: 1.9%;
     z-index: 1;
     transition: background-color 0.5s ease-in-out;
@@ -68,7 +68,30 @@ html {
     z-index: 10;
     position: relative;
 }
+
+#fadeInButtonSVG {
+    transition: transform 0.5s ease-in-out;
+    transform-origin: center;
+  }
   
+  #fadeInButtonSVG.rotated {
+    transform: rotate(360deg);
+  }
+  
+  
+  
+.fade-in-element {
+    opacity: 0;
+    transform: translateY(-20px);
+    transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+}
+
+.fade-in-element.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
 .grightside {
     display: flex;
     width: 100%;
@@ -84,21 +107,10 @@ html {
     height: 10vh;
     display: flex;
     justify-content: space-between;
-    padding-top: 2.3%;
+    padding-top: 2%;
     padding-right: 10%;
 }
 
-.gnightmodey {
-    display: none;
-   }
-
-   .forrespttop {
-    display: none;
-}   
-
-.gnightmode:hover {
-    cursor: pointer;
-}
 
 .gtop1 {
     width: 86px;
@@ -114,33 +126,6 @@ html {
     display: none;
 }
 
-.bar1, .bar2 {
-    transition: transform 0.3s ease-in-out; 
-    transform-origin: center; 
-}
-
-.rotated .bar1 {
-    transform: rotate(45deg) translate(4px, 30%);
-    transform-origin: center;
-}
-
-.rotated .bar2 {
-    transform: rotate(-45deg);
-}
-
-.bar1y, .bar2y {
-    transition: transform 0.3s ease-in-out;
-    transform-origin: center; 
-}
-
-.rotated .bar1y {
-    transform: rotate(45deg) scaleX(1.15) translate(2px, 2px);
-}
-
-.rotated .bar2y {
-    transform: rotate(-45deg) scaleX(1.15) translate(2px, -2px);
-}
-
 
 .gtop11 {
     width: 86px;
@@ -154,7 +139,7 @@ html {
 }
 
 .gtopgroup {
-    width: 300px;
+    width: 250px;
     height: 24px;
     display: flex;
     justify-content: space-between;
@@ -312,7 +297,6 @@ html {
 .gendarrow {
     transition: transform 0.3s ease;
     z-index: 1;
-    animation: bounce 1s ease-in-out infinite;
 }
 
 .gendarrowr {
@@ -321,6 +305,7 @@ html {
 
 .gendarrow:hover {
     cursor: pointer;
+    animation: bounce 1s ease-in-out infinite;
 }
 
 @keyframes bounce {
